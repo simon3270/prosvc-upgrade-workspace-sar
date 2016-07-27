@@ -259,7 +259,7 @@ node /intelwebstage/ {
   include example::microstrategyintel::base
   include example::generic::tomcat
 }
-node /intelapp/ {
+node /intelappstage/ {
   include example::base::config
   include example::microstrategyintel::base
 }
