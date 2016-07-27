@@ -19,14 +19,8 @@ Note: You need the vmware vagrant provider plugin to use vagrant with vmware.
 
 ### Install Vagrant Plugins
 
-Two methods are avaible depending on whether a global Vagrant installation, such as provided by the official packages from [vagrantup.com](http://vagrantup.com), is in use:
-
   - `rake setup:global`:
     This Rake task will add all plugins required by the debugging kit to a global Vagrant installation.
-
-  - `rake setup:sandboxed`:
-    This Rake task will use Bundler to create a completely sandboxed Vagrant installation that includes the plugins required by the debugging kit.
-    The contents of the sandbox can be customized by creating a `Gemfile.local` that specifies additional gems and Bundler environment parameters.
 
 ### Running Catalog Preview
 
