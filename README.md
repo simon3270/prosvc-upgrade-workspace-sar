@@ -33,6 +33,11 @@ Two methods are avaible depending on whether a global Vagrant installation, such
 ### Running Catalog Preview
 
 ```
+vagrant up pe-385-master
+vagrant ssh pe-385-master 
+```
+
+```
 sudo /opt/puppet/bin/puppet preview \
   --baseline-environment production \
   --preview-environment future_production \
