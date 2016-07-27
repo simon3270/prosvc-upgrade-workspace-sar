@@ -8,7 +8,7 @@ roles:
   run_r10k_deploy:
     provisioners:
       -
-        inline: '/opt/puppet/bin/r10k deploy environment production --puppetfile -v debug2 -c /vagrant/config/r10k.yaml 2>&1'
+        inline: '/opt/puppet/bin/r10k deploy environment --puppetfile -v debug2 -c /vagrant/config/r10k.yaml 2>&1'
         type: shell
   copy_yaml_cache:
     provisioners:
