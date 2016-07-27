@@ -1,4 +1,4 @@
-/# Oracle Servers
+# Oracle Servers
 node 'owas2.example.com' {
   include example::base::config
   include example::dba::users
