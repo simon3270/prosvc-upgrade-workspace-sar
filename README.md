@@ -30,3 +30,19 @@ Two methods are avaible depending on whether a global Vagrant installation, such
     This Rake task will use Bundler to create a completely sandboxed Vagrant installation that includes the plugins required by the debugging kit.
     The contents of the sandbox can be customized by creating a `Gemfile.local` that specifies additional gems and Bundler environment parameters.
 
+### Running Catalog Preview
+
+```
+sudo /opt/puppet/bin/puppet preview \
+  --baseline-environment production \
+  --preview-environment future_production \
+  --migrate 3.8/4.0 \
+  --nodes /vagrant/nodes.txt \
+  --view overview-json | tee /vagrant/catalog_preview_overview-baseline.json
+```
+
+### Generating a HTML report
+
+```shell
+/etc/puppetlabs/puppet/environments/production/modules/preview_report/preview_report.rb -f /vagrant/catalog_preview_overview-baseline.json -w /vagrant/preview_report.html
+``` 
