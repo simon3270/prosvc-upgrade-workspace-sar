@@ -6,3 +6,4 @@ Gemfile.local
 Gemfile.lock
 bin
 src/puppetlabs
+catalog_preview_overview-baseline.json
