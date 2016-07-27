@@ -17,6 +17,7 @@ vms:
         template_name: 'templates/centos-6-x86_64'
       - type: openstack
         image: 'centos_6_x86_64'
+    autostart: false
     roles:
       - pe-forward-console
       - pe-memory-tuning2
@@ -34,7 +35,13 @@ vms:
       - type: openstack
         image: 'centos_6_x86_64'
     roles:
+      - add_bootstap_gems
+      - chown_yaml_cache
+      - copy_yaml_cache
+      - run_r10k_deploy
+      - set_noop_master
       - pe-forward-console
+      - pe-385-master
       - pe-memory-tuning
       - el-stop-firewall
       - el-fix-path
@@ -49,6 +56,7 @@ vms:
         template_name: 'templates/centos-6-x86_64'
       - type: openstack
         image: 'centos_6_x86_64'
+    autostart: false
     roles:
       - el-stop-firewall
       - el-fix-path

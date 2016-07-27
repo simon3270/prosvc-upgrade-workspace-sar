@@ -1,0 +1,33 @@
+---
+roles:
+  add_bootstap_gems:
+    provisioners:
+      -
+        inline: "/opt/puppet/bin/gem install markaby --no-ri --no-rdoc"
+        type: shell
+  run_r10k_deploy:
+    provisioners:
+      -
+        inline: '/opt/puppet/bin/r10k deploy environment production --puppetfile -v debug2 -c /vagrant/config/r10k.yaml 2>&1'
+        type: shell
+  copy_yaml_cache:
+    provisioners:
+      -
+        inline: 'cp -Rvp /vagrant/yamlcache/* /var/opt/lib/pe-puppet/yaml'
+        type: shell
+
+  chown_yaml_cache:
+    provisioners:
+      -
+        inline: 'chown -R pe-puppet:pe-puppet /var/opt/lib/pe-puppet/yaml'
+        type: shell
+
+  set_noop_master:
+    provisioners:
+      -
+        inline: '/opt/puppet/bin/puppet config set noop true'
+        type: shell
+
+  pe-385-master:
+    provisioners:
+      - {type: pe_bootstrap, role: !ruby/sym master, version: '3.8.5'}
