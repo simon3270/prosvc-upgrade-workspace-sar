@@ -1,0 +1,216 @@
+--- !ruby/object:Puppet::Node
+  environment: production
+  parameters: 
+    operatingsystemrelease: "6.2"
+    clientnoop: "false"
+    processor0: "Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz"
+    path: "/usr/bin:/sbin:/bin:/usr/sbin"
+    operatingsystem: CentOS
+    puppet_vardir: /var/lib/puppet
+    boardserialnumber: None
+    macaddress: "00:50:56:AC:F6:46"
+    boardproductname: "440BX Desktop Reference Platform"
+    selinux: "false"
+    boardmanufacturer: "Intel Corporation"
+    kernel: Linux
+    timezone: MST
+    productname: "VMware Virtual Platform"
+    hardwareisa: x86_64
+    virtual: vmware
+    memoryfree: "2.55 GB"
+    root_home: /root
+    filesystems: "ext4,iso9660"
+    mtu_eth0: "1500"
+    mtu_lo: "16436"
+    hostname: jiraprod2
+    sudoversion: "1.7.4p5"
+    rubyplatform: x86_64-linux
+    bios_version: "6.00"
+    processors: "modelsIntel(R) Xeon(R) CPU           E5649  @ 2.53GHzIntel(R) Xeon(R) CPU           E5649  @ 2.53GHzcount2physicalcount2"
+    type: Other
+    blockdevices: sda
+    "_timestamp": "Fri Dec 18 09:10:30 -0700 2015"
+    physicalprocessorcount: "2"
+    concat_basedir: /var/lib/puppet/concat
+    serialnumber: "VMware-42 2c 89 65 16 27 cd ad-f2 e3 da 59 50 42 3c af"
+    swapsize: "8.00 GB"
+    is_virtual: "true"
+    os: releaseminor2full6.2major6nameCentOSfamilyRedHat
+    ps: "ps -ef"
+    sshfp_rsa: |-
+      SSHFP 1 1 56e96565248e4b3f102bb2dc7242aad4afde899d
+      SSHFP 1 2 afaf8386fcf5c8c0f4d78d902440adfe95315372c38241768ac8eefdb3f0b77b
+    facterversion: "2.4.4"
+    uptime_days: "200"
+    network_eth0: "10.16.47.0"
+    rubyversion: "1.8.7"
+    processorcount: "2"
+    user_exists_oracle: ""
+    ipaddress_lo: "127.0.0.1"
+    operatingsystemmajrelease: "6"
+    memoryfree_mb: "2606.77"
+    is_pe: "false"
+    hardwaremodel: x86_64
+    uptime: "200 days"
+    uptime_seconds: "17362219"
+    uuid: "422C8965-1627-CDAD-F2E3-DA5950423CAF"
+    environment: production
+    id: root
+    network_lo: "127.0.0.0"
+    architecture: x86_64
+    interfaces: "eth0,lo"
+    processor1: "Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz"
+    swapsize_mb: "8191.99"
+    swapfree: "7.98 GB"
+    nr_ruby_found: "true"
+    kernelmajversion: "2.6"
+    uniqueid: "100a752f"
+    domain: example.com
+    gid: root
+    sshdsakey: "AAAAB3NzaC1kc3MAAACBAKaEz7ouX2hhJRx7pB+Vhy7WUUXlCY0uYON0UVimjbl9i0Lp/kkW9tCplBKikA8j9732LpaT1xmVwvT4LE4VnmaYtTmcVDnomTcCubE3PJkf3xhqtrTaaKQAOOQxhPy0XDZGM56UL0HIzi8slRPn8H3Vmql6CWaLtaUD1hS3P3BBAAAAFQCmVN2clRX5wVWAN+X4JIdMz+VDGQAAAIAqbxhg9FOdQKtqUKZELye92esL3DRaVBNzdvLaUY5X76cb5eULfUgQXJy5dY2ssx19gMPWkvkrbNTYtsi1DHLjiRH2EET1yMVN1PDNEJ3H/wAXnd0VCPiJqI+c20JzoaNcAifgu/A3rSqMOm+Or7zXJOi4gTqAR0xnjSyVr/7a6wAAAIARtFhG6AcHlDW0dCNxgIETr1pNCGft5DZeW2uyJHKYV2pomijIEpiBoumt/WurPuaUWkqmm0AN9kWHIi+Y72zUlkQhlMNwJFwWThbTp8aEplf+XVBy/8ePl5YKovLnL++foQXr1cmCT9bLftNDwlqhpU/otVI9GR/D/k22DiESnQ=="
+    user_exists_splex: ""
+    uptime_hours: "4822"
+    netmask: "255.255.255.0"
+    bios_vendor: "Phoenix Technologies LTD"
+    user_exists_weblogic: ""
+    user_exists_infraadm: ""
+    ipaddress_eth0: "10.16.47.117"
+    blockdevice_sda_size: "103079215104"
+    swapfree_mb: "8175.52"
+    macaddress_eth0: "00:50:56:AC:F6:46"
+    clientversion: "3.8.4"
+    augeasversion: "1.0.0"
+    sshrsakey: "AAAAB3NzaC1yc2EAAAABIwAAAQEAudACdoXkAFnDLhkYJeMJKJHDOFJimgCVWWDyTubQfKw8lRbtQQfnIobFK3nYAxewWFosYdN6qEm2RCiUlL4WYJSzp/0KoTahMQ+ButG9PcXfrEKE7GDHwdoocQpvY/hxvdTzXOnk6CQGBdcjImfjcAe5/RvJPyidthKLt8lvvrPXYMY9swn79o7UeJQPWyGEEX7fFaPa8e+3wjV/6qbX9Vt5qaJqR63Zh2c2gRU2Hxl6zT/hU2lGk1aTa9rMo15+yjeAFmCC5eQyI7Rf4foeA3dN2ZUDuo3/sRvI8FRIX/kLKKhloF4ViDCyRqknpaY8IRJUjrLZa7JYIfh82mOq8w=="
+    ipaddress: "10.16.47.117"
+    osfamily: RedHat
+    rubysitedir: /usr/lib/ruby/site_ruby/1.8
+    kernelrelease: "2.6.32-220.2.1.el6.x86_64"
+    blockdevice_sda_vendor: VMware
+    system_uptime: "uptime200 dayshours4822seconds17362219days200"
+    memorysize_mb: "3833.16"
+    clientcert: jiraprod2.example.com
+    memorysize: "3.74 GB"
+    netmask_lo: "255.0.0.0"
+    kernelversion: "2.6.32"
+    partitions: sda1filesystemext4uuidf94fe77a-f1c8-436e-a749-871add45f92fsize786432mount/bootsda2filesystemLVM2_membersize67108864
+    puppetversion: "3.8.4"
+    blockdevice_sda_model: "Virtual disk"
+    sshfp_dsa: |-
+      SSHFP 2 1 7216414755b6901dfd9dda36af6c9727e5a06126
+      SSHFP 2 2 09c8c22e0dad476032ed5e64ddb6b7efa558085e8807d59eb9d93392bddd134e
+    staging_http_get: curl
+    bios_release_date: "06/22/2012"
+    manufacturer: "VMware, Inc."
+    fqdn: jiraprod2.example.com
+    netmask_eth0: "255.255.255.0"
+    nr_java_found: "false"
+  name: jiraprod2.example.com
+  expiration: 2015-12-18 09:40:30.691573 -07:00
+  time: 2015-12-18 09:10:30.683148 -07:00
+  classes: []
+  facts: !ruby/object:Puppet::Node::Facts
+    values: 
+      operatingsystemrelease: "6.2"
+      clientnoop: "false"
+      processor0: "Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz"
+      path: "/usr/bin:/sbin:/bin:/usr/sbin"
+      operatingsystem: CentOS
+      puppet_vardir: /var/lib/puppet
+      boardserialnumber: None
+      macaddress: "00:50:56:AC:F6:46"
+      boardproductname: "440BX Desktop Reference Platform"
+      selinux: "false"
+      boardmanufacturer: "Intel Corporation"
+      kernel: Linux
+      timezone: MST
+      productname: "VMware Virtual Platform"
+      hardwareisa: x86_64
+      virtual: vmware
+      memoryfree: "2.55 GB"
+      root_home: /root
+      filesystems: "ext4,iso9660"
+      mtu_eth0: "1500"
+      mtu_lo: "16436"
+      hostname: jiraprod2
+      sudoversion: "1.7.4p5"
+      rubyplatform: x86_64-linux
+      bios_version: "6.00"
+      processors: "modelsIntel(R) Xeon(R) CPU           E5649  @ 2.53GHzIntel(R) Xeon(R) CPU           E5649  @ 2.53GHzcount2physicalcount2"
+      type: Other
+      blockdevices: sda
+      "_timestamp": "Fri Dec 18 09:10:30 -0700 2015"
+      physicalprocessorcount: "2"
+      concat_basedir: /var/lib/puppet/concat
+      serialnumber: "VMware-42 2c 89 65 16 27 cd ad-f2 e3 da 59 50 42 3c af"
+      swapsize: "8.00 GB"
+      is_virtual: "true"
+      os: releaseminor2full6.2major6nameCentOSfamilyRedHat
+      ps: "ps -ef"
+      sshfp_rsa: |-
+        SSHFP 1 1 56e96565248e4b3f102bb2dc7242aad4afde899d
+        SSHFP 1 2 afaf8386fcf5c8c0f4d78d902440adfe95315372c38241768ac8eefdb3f0b77b
+      facterversion: "2.4.4"
+      uptime_days: "200"
+      network_eth0: "10.16.47.0"
+      rubyversion: "1.8.7"
+      processorcount: "2"
+      user_exists_oracle: ""
+      ipaddress_lo: "127.0.0.1"
+      operatingsystemmajrelease: "6"
+      memoryfree_mb: "2606.77"
+      is_pe: "false"
+      hardwaremodel: x86_64
+      uptime: "200 days"
+      uptime_seconds: "17362219"
+      uuid: "422C8965-1627-CDAD-F2E3-DA5950423CAF"
+      id: root
+      network_lo: "127.0.0.0"
+      architecture: x86_64
+      interfaces: "eth0,lo"
+      processor1: "Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz"
+      swapsize_mb: "8191.99"
+      swapfree: "7.98 GB"
+      nr_ruby_found: "true"
+      kernelmajversion: "2.6"
+      bios_vendor: "Phoenix Technologies LTD"
+      netmask: "255.255.255.0"
+      gid: root
+      sshdsakey: "AAAAB3NzaC1kc3MAAACBAKaEz7ouX2hhJRx7pB+Vhy7WUUXlCY0uYON0UVimjbl9i0Lp/kkW9tCplBKikA8j9732LpaT1xmVwvT4LE4VnmaYtTmcVDnomTcCubE3PJkf3xhqtrTaaKQAOOQxhPy0XDZGM56UL0HIzi8slRPn8H3Vmql6CWaLtaUD1hS3P3BBAAAAFQCmVN2clRX5wVWAN+X4JIdMz+VDGQAAAIAqbxhg9FOdQKtqUKZELye92esL3DRaVBNzdvLaUY5X76cb5eULfUgQXJy5dY2ssx19gMPWkvkrbNTYtsi1DHLjiRH2EET1yMVN1PDNEJ3H/wAXnd0VCPiJqI+c20JzoaNcAifgu/A3rSqMOm+Or7zXJOi4gTqAR0xnjSyVr/7a6wAAAIARtFhG6AcHlDW0dCNxgIETr1pNCGft5DZeW2uyJHKYV2pomijIEpiBoumt/WurPuaUWkqmm0AN9kWHIi+Y72zUlkQhlMNwJFwWThbTp8aEplf+XVBy/8ePl5YKovLnL++foQXr1cmCT9bLftNDwlqhpU/otVI9GR/D/k22DiESnQ=="
+      user_exists_splex: ""
+      uptime_hours: "4822"
+      domain: example.com
+      uniqueid: "100a752f"
+      macaddress_eth0: "00:50:56:AC:F6:46"
+      swapfree_mb: "8175.52"
+      blockdevice_sda_size: "103079215104"
+      ipaddress_eth0: "10.16.47.117"
+      user_exists_infraadm: ""
+      user_exists_weblogic: ""
+      ipaddress: "10.16.47.117"
+      sshrsakey: "AAAAB3NzaC1yc2EAAAABIwAAAQEAudACdoXkAFnDLhkYJeMJKJHDOFJimgCVWWDyTubQfKw8lRbtQQfnIobFK3nYAxewWFosYdN6qEm2RCiUlL4WYJSzp/0KoTahMQ+ButG9PcXfrEKE7GDHwdoocQpvY/hxvdTzXOnk6CQGBdcjImfjcAe5/RvJPyidthKLt8lvvrPXYMY9swn79o7UeJQPWyGEEX7fFaPa8e+3wjV/6qbX9Vt5qaJqR63Zh2c2gRU2Hxl6zT/hU2lGk1aTa9rMo15+yjeAFmCC5eQyI7Rf4foeA3dN2ZUDuo3/sRvI8FRIX/kLKKhloF4ViDCyRqknpaY8IRJUjrLZa7JYIfh82mOq8w=="
+      augeasversion: "1.0.0"
+      clientversion: "3.8.4"
+      system_uptime: "uptime200 dayshours4822seconds17362219days200"
+      blockdevice_sda_vendor: VMware
+      kernelrelease: "2.6.32-220.2.1.el6.x86_64"
+      rubysitedir: /usr/lib/ruby/site_ruby/1.8
+      osfamily: RedHat
+      puppetversion: "3.8.4"
+      partitions: sda1filesystemext4uuidf94fe77a-f1c8-436e-a749-871add45f92fsize786432mount/bootsda2filesystemLVM2_membersize67108864
+      kernelversion: "2.6.32"
+      netmask_lo: "255.0.0.0"
+      memorysize: "3.74 GB"
+      clientcert: jiraprod2.example.com
+      memorysize_mb: "3833.16"
+      nr_java_found: "false"
+      netmask_eth0: "255.255.255.0"
+      fqdn: jiraprod2.example.com
+      manufacturer: "VMware, Inc."
+      bios_release_date: "06/22/2012"
+      staging_http_get: curl
+      sshfp_dsa: |-
+        SSHFP 2 1 7216414755b6901dfd9dda36af6c9727e5a06126
+        SSHFP 2 2 09c8c22e0dad476032ed5e64ddb6b7efa558085e8807d59eb9d93392bddd134e
+      blockdevice_sda_model: "Virtual disk"
+    name: jiraprod2.example.com
+    expiration: 2015-12-18 09:39:59.031333 -07:00

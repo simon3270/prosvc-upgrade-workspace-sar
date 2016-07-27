@@ -1,0 +1,109 @@
+--- !ruby/object:Puppet::Node::Facts
+  values: 
+    macaddress: "00:50:56:AC:D6:72"
+    system_uptime: "seconds15177642hours4216uptime175 daysdays175"
+    sshfp_dsa: |-
+      SSHFP 2 1 29cd12b128fc826738a31c031c064e5cadc8c174
+      SSHFP 2 2 c8fd2e8c827f51b264ada47c281934e28126a01bef6f71a7a19f359d0eb5a059
+    root_home: /root
+    kernel: Linux
+    swapsize: "8.00 GB"
+    clientversion: "3.8.6"
+    rubyplatform: x86_64-linux
+    nr_ruby_found: "true"
+    puppet_vardir: /var/lib/puppet
+    gid: root
+    facterversion: "2.4.4"
+    os: familyRedHatreleaseminor7full6.7major6nameCentOS
+    bios_release_date: "04/14/2014"
+    user_exists_infraadm: ""
+    clientcert: ciapp1.example.com
+    architecture: x86_64
+    is_virtual: "true"
+    ps: "ps -ef"
+    uptime_hours: "4216"
+    id: root
+    ipaddress_lo: "127.0.0.1"
+    augeasversion: "1.0.0"
+    filesystems: "ext4,iso9660"
+    fqdn: ciapp1.example.com
+    kernelversion: "2.6.32"
+    timezone: MDT
+    ipaddress_eth0: "10.16.131.150"
+    operatingsystemrelease: "6.7"
+    hardwareisa: x86_64
+    productname: "VMware Virtual Platform"
+    selinux: "false"
+    serialnumber: "VMware-42 2c 86 95 db 98 80 6e-32 e9 18 ab 21 09 f2 59"
+    processor1: "Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz"
+    swapfree: "8.00 GB"
+    memoryfree: "5.53 GB"
+    sshdsakey: "AAAAB3NzaC1kc3MAAACBAPon58gA3VX4WTFQeRln3wZbJv8J8hmhowzmUy0ZNsrGKVwGnwb2jGJgwuxpPCn31HMCW4JSRQyzpU9Jg+5Lj/Pv2GdpX0Qm/bTIfVM9hf/ZxCmvu9m4egEvhetUKoKVZ1OUnr+z7nSh93qL69vBonROzW8ZsJ7xJnnXDuagiB0RAAAAFQC3PTda4JFazem6aioAgZwGssL3RQAAAIEAjLfHovTt96J7djAOc2+ZJeFDLKOn1uqGBLEH3vUyBquq8zmLWXiAHRM0l2FMkz0PEntPfyDN0OdLgFXu0gNLbe4KEalp7TICFsjdtKwdtlB+NT5IPIrWW8phvLEXpHzZ3Y4KC4nXl5Huk43qknwRcz8bfqut595hHyCXQZb2Wf8AAACAJ0V3MNP0ElRkR30uH7fDGb+a7Y/9BynsM7l5qOfaWv5qmAJpbDMVbMs1o1gY20u24PqJFVbt8OCJkiyQZoGYnoHcwhsoFx4n8tRSXCRfLmeoGnHbEpQqeMXTPZDn09wy83CFRZinlb0KgNlJ3qj7tAzF5IQuheV3xOtth2rZhYI="
+    blockdevice_sda_model: "Virtual disk"
+    operatingsystemmajrelease: "6"
+    hostname: ciapp1
+    boardserialnumber: None
+    blockdevice_sr0_size: "1073741312"
+    partitions: sda1size2097152uuidf1af2267-798b-4ffd-867b-66dcf6147edamount/bootfilesystemext4sda2size207616000filesystemLVM2_member
+    netmask: "255.255.255.0"
+    memoryfree_mb: "5658.21"
+    path: "/usr/bin:/sbin:/bin:/usr/sbin"
+    user_exists_splex: ""
+    processorcount: "2"
+    sshrsakey: "AAAAB3NzaC1yc2EAAAABIwAAAQEA1wt/Pp+0IEbtVX2egIBIeNTxCkdNm6uTr2D+gKlC7kZedO1s7Lxiygny1Wa5gyYt+9v/Gfa4IEFMo6SjwPinmGpQgdCe80+QQfNrmLni49pGqHME0N7/4Kx3PufF2dvGhEk2AXVpJ7nSxhbegWqzTSoGK/o518kVyZtAhWQUaytuasbnnthY35u8Bfc5aul+9XWfygu/OcTFrJcunHmUnubpVFGAeN4Kg84sS/fix6pOwgOjybmfGoHzjB4DIoL45mmoxzCdvc33i66eX5pO8Y3PMoM/Yp32DWUcbGCelZD4b2ucarGeFiSrB5H2y7a7av3WJqbJkYVSq8/+12Sp2Q=="
+    sshfp_rsa: |-
+      SSHFP 1 1 033ccb32f7622281c6946d168a7c8c9e97b09dd2
+      SSHFP 1 2 5d4e9e271ece93c29230264e6e2d07e87584772b285f9b16c2e9d78d6d37dc7e
+    kernelrelease: "2.6.32-573.7.1.el6.x86_64"
+    domain: example.com
+    "_timestamp": 2016-05-04 10:28:43.384585 -06:00
+    network_eth0: "10.16.131.0"
+    is_pe: "false"
+    concat_basedir: /var/lib/puppet/concat
+    mtu_eth0: "1500"
+    kernelmajversion: "2.6"
+    blockdevice_sr0_vendor: NECVMWar
+    nr_java_found: "false"
+    type: Other
+    swapsize_mb: "8192.00"
+    bios_vendor: "Phoenix Technologies LTD"
+    network_lo: "127.0.0.0"
+    boardproductname: "440BX Desktop Reference Platform"
+    memorysize_mb: "7872.51"
+    rubysitedir: /usr/lib/ruby/site_ruby/1.8
+    hardwaremodel: x86_64
+    rubyversion: "1.8.7"
+    osfamily: RedHat
+    boardmanufacturer: "Intel Corporation"
+    blockdevices: "sda,sr0"
+    netmask_eth0: "255.255.255.0"
+    uptime_seconds: "15177642"
+    uniqueid: "100a9683"
+    uptime: "175 days"
+    virtual: vmware
+    processor0: "Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz"
+    clientnoop: "false"
+    netmask_lo: "255.0.0.0"
+    bios_version: "6.00"
+    ipaddress: "10.16.131.150"
+    swapfree_mb: "8192.00"
+    user_exists_oracle: ""
+    physicalprocessorcount: "2"
+    manufacturer: "VMware, Inc."
+    uuid: "422C8695-DB98-806E-32E9-18AB2109F259"
+    staging_http_get: curl
+    interfaces: "eth0,lo"
+    uptime_days: "175"
+    user_exists_weblogic: ""
+    blockdevice_sda_size: "107374182400"
+    operatingsystem: CentOS
+    macaddress_eth0: "00:50:56:AC:D6:72"
+    blockdevice_sr0_model: "VMware IDE CDR10"
+    blockdevice_sda_vendor: VMware
+    puppetversion: "3.8.6"
+    memorysize: "7.69 GB"
+    sudoversion: "1.8.6p3"
+    processors: "count2physicalcount2modelsIntel(R) Xeon(R) CPU           E5649  @ 2.53GHzIntel(R) Xeon(R) CPU           E5649  @ 2.53GHz"
+    mtu_lo: "65536"
+  name: ciapp1.example.com
+  expiration: 2016-05-04 10:58:05.573089 -06:00

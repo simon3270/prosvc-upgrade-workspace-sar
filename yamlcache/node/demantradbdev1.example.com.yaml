@@ -1,0 +1,242 @@
+--- !ruby/object:Puppet::Node
+  environment: dev
+  parameters: 
+    bios_version: "6.00"
+    netmask: "255.255.255.0"
+    processor2: "Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz"
+    blockdevice_hdc_size: "4294965248"
+    memorysize_mb: "16050.71"
+    interfaces: "eth0,lo"
+    swapfree_mb: "16383.99"
+    clientnoop: "false"
+    operatingsystemmajrelease: "5"
+    processors: "modelsIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHzphysicalcount6count6"
+    lsbmajdistrelease: "5"
+    sudoversion: "1.7.2p1"
+    uptime_hours: "3961"
+    fqdn: demantradbdev1.example.com
+    uptime_days: "165"
+    clientversion: "3.8.4"
+    type: Other
+    hardwaremodel: x86_64
+    memoryfree_mb: "15225.97"
+    user_exists_weblogic: ""
+    productname: "VMware Virtual Platform"
+    path: "/usr/bin:/sbin:/bin:/usr/sbin"
+    manufacturer: "VMware, Inc."
+    boardmanufacturer: "Intel Corporation"
+    processor4: "Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz"
+    physicalprocessorcount: "6"
+    sshdsakey: "AAAAB3NzaC1kc3MAAACBAPrTh/CDvEXPsUu8sIbHlCWfxy8sM+7+CSIU29LQeedkNwEfA7gEeKToA2uKmk7cVJJdnurllpxo4+AVmLiAEUn+W6VvesOTz7eDysORIwZ2cvFF3nsz0sD+KOMuv2O1fllAcsZxB5129mKDWHdrvUH9zPXnUj61imUwoiEJeJ63AAAAFQCs75xHO7d/XP5N5VeCcIIiYO/JBQAAAIBmOxUPpBSyZeS8bFCGnfXOllkCtBwzov4n7nRq2LWbEYGEXx5FO0pICz5V3+sOEZs8nnaBy+Hlr/jDnopJECMsFE9JT0SHvMyh4fEY4ZeJaGZwN7NhH0SeoNiQZ79TOmtZDz8afIv0qokxyp+u1JacjA+ekRmcXQ2uanz80klhvwAAAIAs+x6p2LYpa6btPI9QAA71FfNJKBe8izm1NCyCVIKSs9O94itOXlKFyvOXa3cUmHVYqugditWhfv48okeJjEVLgcnptNvMdJNXx8U/nYgXvzI8YiSf8JETPXWH+UwQSacsToBVQIEEc7pbOhuWfvSxaTPhGa7/okujz2p2ZN+KnQ=="
+    operatingsystemrelease: "5.8"
+    ipaddress: "10.16.131.92"
+    blockdevices: "fd0,hdc,sda,sdb"
+    os: "lsbdistrelease5.8distidEnterpriseEnterpriseServerminordistrelease8distcodenameCarthagerelease:core-4.0-amd64:core-4.0-ia32:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-ia32:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-ia32:printing-4.0-noarchmajdistrelease5distdescriptionEnterprise Linux Enterprise Linux Server release 5.8 (Carthage)nameOracleLinuxfamilyRedHatreleaseminor8major5full5.8"
+    root_home: /root
+    lsbrelease: ":core-4.0-amd64:core-4.0-ia32:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-ia32:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-ia32:printing-4.0-noarch"
+    ps: "ps -ef"
+    osfamily: RedHat
+    processor1: "Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz"
+    gid: root
+    selinux: "false"
+    blockdevice_sdb_model: "Virtual disk"
+    kernelversion: "2.6.18"
+    swapsize: "16.00 GB"
+    system_uptime: "seconds14259998hours3961uptime165 daysdays165"
+    rubysitedir: /usr/lib/ruby/site_ruby/1.8
+    processorcount: "6"
+    blockdevice_sda_model: "Virtual disk"
+    boardserialnumber: None
+    kernel: Linux
+    memorysize: "15.67 GB"
+    uniqueid: "100a5c83"
+    kernelrelease: "2.6.18-308.el5"
+    "_timestamp": "Thu Nov 12 10:52:05 -0700 2015"
+    lsbdistid: EnterpriseEnterpriseServer
+    operatingsystem: OracleLinux
+    user_exists_splex: ""
+    puppet_vardir: /var/lib/puppet
+    lsbdistrelease: "5.8"
+    bios_release_date: "08/16/2013"
+    swapsize_mb: "16383.99"
+    uptime_seconds: "14259998"
+    uptime: "165 days"
+    hardwareisa: x86_64
+    lsbdistdescription: "Enterprise Linux Enterprise Linux Server release 5.8 (Carthage)"
+    facterversion: "2.4.1"
+    sshfp_rsa: |-
+      SSHFP 1 1 dd482255240cfb888e3d4c141b27bbab84f1bf74
+      SSHFP 1 2 e6d294daf18ab006612840ff4402f35bee81a835ab5a203db94f31144e658a11
+    partitions: sda2size41399505sda1label/bootfilesystemext2mount/bootuuid03776b22-f64b-44f8-a95a-35ae8d6fa47dsize530082sdb1size41929587
+    processor3: "Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz"
+    lsbminordistrelease: "8"
+    boardproductname: "440BX Desktop Reference Platform"
+    hostname: demantradbdev1
+    swapfree: "16.00 GB"
+    network_eth0: "10.16.131.0"
+    lsbdistcodename: Carthage
+    mtu_eth0: "1500"
+    user_exists_oracle: "500"
+    macaddress_eth0: "00:50:56:AC:B0:09"
+    augeasversion: "1.2.0"
+    filesystems: "ext2,ext3,iso9660"
+    processor0: "Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz"
+    virtual: vmware
+    mtu_lo: "16436"
+    memoryfree: "14.87 GB"
+    blockdevice_sdb_size: "21474836480"
+    ipaddress_lo: "127.0.0.1"
+    environment: dev
+    network_lo: "127.0.0.0"
+    puppetversion: "3.8.4"
+    kernelmajversion: "2.6"
+    is_pe: "false"
+    sshfp_dsa: |-
+      SSHFP 2 1 216d12bb8f3d89309e8a99cd95f3a9fea7b618d3
+      SSHFP 2 2 3b01cd8662fbbb7ddce432f59d73d22ab2e61545d90be65962fc1981cf184695
+    blockdevice_sda_vendor: VMware
+    rubyversion: "1.8.7"
+    uuid: "422CF2CE-C9AE-C8FB-EFC9-292CCD378F6B"
+    sshrsakey: "AAAAB3NzaC1yc2EAAAABIwAAAQEAxgJhgpK7dujuYeZ80JojvA1u0vjGL85jTRohlzVL3+uqWxKHjMIRrHntWkyFRkxa3i/EXa3LZqRuf0XkU43foxsNMmCKOpO48vfgPHbNadERSmA0HyB0vlGUBBdfB/x7dY26cu+N49PR15poyY6uHRlL8Ay11KVe50w4+Yg3sgNX3eM9YCsphUbe219mRcD71k/zO2m0TF2FirZK55HEMMmS4ZH0kUfhEnutpjhqu+lHoHawRe69+RlNsSOnSRsNuGYk/fHFejaTPTAsgpalG00WNcHM7HeW/2KeUDoU6mR4E/D4WjTYhDGWzEHThKWokwtO8YM7l3NIhAVjxZR2Fw=="
+    domain: example.com
+    serialnumber: "VMware-42 2c f2 ce c9 ae c8 fb-ef c9 29 2c cd 37 8f 6b"
+    architecture: x86_64
+    blockdevice_sdb_vendor: VMware
+    user_exists_infraadm: ""
+    id: root
+    blockdevice_sda_size: "21474836480"
+    clientcert: demantradbdev1.example.com
+    timezone: MST
+    is_virtual: "true"
+    concat_basedir: /var/lib/puppet/concat
+    bios_vendor: "Phoenix Technologies LTD"
+    netmask_eth0: "255.255.255.0"
+    processor5: "Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz"
+    netmask_lo: "255.0.0.0"
+    blockdevice_fd0_size: "4096"
+    ipaddress_eth0: "10.16.131.92"
+    rubyplatform: x86_64-linux
+    macaddress: "00:50:56:AC:B0:09"
+  name: demantradbdev1.example.com
+  expiration: 2015-11-12 11:22:05.436960 -07:00
+  time: 2015-11-12 10:52:05.434111 -07:00
+  classes: []
+  facts: !ruby/object:Puppet::Node::Facts
+    values: 
+      bios_version: "6.00"
+      netmask: "255.255.255.0"
+      processor2: "Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz"
+      blockdevice_hdc_size: "4294965248"
+      memorysize_mb: "16050.71"
+      interfaces: "eth0,lo"
+      swapfree_mb: "16383.99"
+      clientnoop: "false"
+      operatingsystemmajrelease: "5"
+      processors: "modelsIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHzphysicalcount6count6"
+      lsbmajdistrelease: "5"
+      sudoversion: "1.7.2p1"
+      uptime_hours: "3961"
+      fqdn: demantradbdev1.example.com
+      uptime_days: "165"
+      clientversion: "3.8.4"
+      type: Other
+      hardwaremodel: x86_64
+      memoryfree_mb: "15225.97"
+      user_exists_weblogic: ""
+      productname: "VMware Virtual Platform"
+      path: "/usr/bin:/sbin:/bin:/usr/sbin"
+      manufacturer: "VMware, Inc."
+      boardmanufacturer: "Intel Corporation"
+      processor4: "Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz"
+      physicalprocessorcount: "6"
+      sshdsakey: "AAAAB3NzaC1kc3MAAACBAPrTh/CDvEXPsUu8sIbHlCWfxy8sM+7+CSIU29LQeedkNwEfA7gEeKToA2uKmk7cVJJdnurllpxo4+AVmLiAEUn+W6VvesOTz7eDysORIwZ2cvFF3nsz0sD+KOMuv2O1fllAcsZxB5129mKDWHdrvUH9zPXnUj61imUwoiEJeJ63AAAAFQCs75xHO7d/XP5N5VeCcIIiYO/JBQAAAIBmOxUPpBSyZeS8bFCGnfXOllkCtBwzov4n7nRq2LWbEYGEXx5FO0pICz5V3+sOEZs8nnaBy+Hlr/jDnopJECMsFE9JT0SHvMyh4fEY4ZeJaGZwN7NhH0SeoNiQZ79TOmtZDz8afIv0qokxyp+u1JacjA+ekRmcXQ2uanz80klhvwAAAIAs+x6p2LYpa6btPI9QAA71FfNJKBe8izm1NCyCVIKSs9O94itOXlKFyvOXa3cUmHVYqugditWhfv48okeJjEVLgcnptNvMdJNXx8U/nYgXvzI8YiSf8JETPXWH+UwQSacsToBVQIEEc7pbOhuWfvSxaTPhGa7/okujz2p2ZN+KnQ=="
+      operatingsystemrelease: "5.8"
+      ipaddress: "10.16.131.92"
+      blockdevices: "fd0,hdc,sda,sdb"
+      os: "lsbdistrelease5.8distidEnterpriseEnterpriseServerminordistrelease8distcodenameCarthagerelease:core-4.0-amd64:core-4.0-ia32:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-ia32:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-ia32:printing-4.0-noarchmajdistrelease5distdescriptionEnterprise Linux Enterprise Linux Server release 5.8 (Carthage)nameOracleLinuxfamilyRedHatreleaseminor8major5full5.8"
+      root_home: /root
+      lsbrelease: ":core-4.0-amd64:core-4.0-ia32:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-ia32:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-ia32:printing-4.0-noarch"
+      ps: "ps -ef"
+      osfamily: RedHat
+      processor1: "Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz"
+      gid: root
+      selinux: "false"
+      blockdevice_sdb_model: "Virtual disk"
+      kernelversion: "2.6.18"
+      swapsize: "16.00 GB"
+      system_uptime: "seconds14259998hours3961uptime165 daysdays165"
+      rubysitedir: /usr/lib/ruby/site_ruby/1.8
+      processorcount: "6"
+      blockdevice_sda_model: "Virtual disk"
+      boardserialnumber: None
+      kernel: Linux
+      memorysize: "15.67 GB"
+      uniqueid: "100a5c83"
+      kernelrelease: "2.6.18-308.el5"
+      "_timestamp": "Thu Nov 12 10:52:05 -0700 2015"
+      lsbdistid: EnterpriseEnterpriseServer
+      operatingsystem: OracleLinux
+      user_exists_splex: ""
+      puppet_vardir: /var/lib/puppet
+      lsbdistrelease: "5.8"
+      bios_release_date: "08/16/2013"
+      swapsize_mb: "16383.99"
+      uptime_seconds: "14259998"
+      uptime: "165 days"
+      hardwareisa: x86_64
+      lsbdistdescription: "Enterprise Linux Enterprise Linux Server release 5.8 (Carthage)"
+      facterversion: "2.4.1"
+      sshfp_rsa: |-
+        SSHFP 1 1 dd482255240cfb888e3d4c141b27bbab84f1bf74
+        SSHFP 1 2 e6d294daf18ab006612840ff4402f35bee81a835ab5a203db94f31144e658a11
+      lsbminordistrelease: "8"
+      boardproductname: "440BX Desktop Reference Platform"
+      processor3: "Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz"
+      partitions: sda2size41399505sda1label/bootfilesystemext2mount/bootuuid03776b22-f64b-44f8-a95a-35ae8d6fa47dsize530082sdb1size41929587
+      mtu_eth0: "1500"
+      lsbdistcodename: Carthage
+      network_eth0: "10.16.131.0"
+      swapfree: "16.00 GB"
+      hostname: demantradbdev1
+      ipaddress_lo: "127.0.0.1"
+      blockdevice_sdb_size: "21474836480"
+      memoryfree: "14.87 GB"
+      mtu_lo: "16436"
+      virtual: vmware
+      processor0: "Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz"
+      filesystems: "ext2,ext3,iso9660"
+      augeasversion: "1.2.0"
+      macaddress_eth0: "00:50:56:AC:B0:09"
+      user_exists_oracle: "500"
+      domain: example.com
+      sshrsakey: "AAAAB3NzaC1yc2EAAAABIwAAAQEAxgJhgpK7dujuYeZ80JojvA1u0vjGL85jTRohlzVL3+uqWxKHjMIRrHntWkyFRkxa3i/EXa3LZqRuf0XkU43foxsNMmCKOpO48vfgPHbNadERSmA0HyB0vlGUBBdfB/x7dY26cu+N49PR15poyY6uHRlL8Ay11KVe50w4+Yg3sgNX3eM9YCsphUbe219mRcD71k/zO2m0TF2FirZK55HEMMmS4ZH0kUfhEnutpjhqu+lHoHawRe69+RlNsSOnSRsNuGYk/fHFejaTPTAsgpalG00WNcHM7HeW/2KeUDoU6mR4E/D4WjTYhDGWzEHThKWokwtO8YM7l3NIhAVjxZR2Fw=="
+      uuid: "422CF2CE-C9AE-C8FB-EFC9-292CCD378F6B"
+      rubyversion: "1.8.7"
+      blockdevice_sda_vendor: VMware
+      sshfp_dsa: |-
+        SSHFP 2 1 216d12bb8f3d89309e8a99cd95f3a9fea7b618d3
+        SSHFP 2 2 3b01cd8662fbbb7ddce432f59d73d22ab2e61545d90be65962fc1981cf184695
+      is_pe: "false"
+      kernelmajversion: "2.6"
+      puppetversion: "3.8.4"
+      network_lo: "127.0.0.0"
+      clientcert: demantradbdev1.example.com
+      blockdevice_sda_size: "21474836480"
+      id: root
+      user_exists_infraadm: ""
+      blockdevice_sdb_vendor: VMware
+      architecture: x86_64
+      serialnumber: "VMware-42 2c f2 ce c9 ae c8 fb-ef c9 29 2c cd 37 8f 6b"
+      netmask_lo: "255.0.0.0"
+      processor5: "Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz"
+      netmask_eth0: "255.255.255.0"
+      bios_vendor: "Phoenix Technologies LTD"
+      concat_basedir: /var/lib/puppet/concat
+      is_virtual: "true"
+      timezone: MST
+      macaddress: "00:50:56:AC:B0:09"
+      rubyplatform: x86_64-linux
+      ipaddress_eth0: "10.16.131.92"
+      blockdevice_fd0_size: "4096"
+    name: demantradbdev1.example.com
+    expiration: 2015-11-12 11:21:58.320504 -07:00

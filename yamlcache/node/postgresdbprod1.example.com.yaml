@@ -1,0 +1,246 @@
+--- !ruby/object:Puppet::Node
+  environment: production
+  parameters: 
+    environment: production
+    system_uptime: "hours7741days322uptime322 daysseconds27867717"
+    sshfp_dsa: |-
+      SSHFP 2 1 a1c196f106b13024d26c8739eb20d3c44211ea8d
+      SSHFP 2 2 fc9ee89bfa6e7dfd35edc317381a61c2027342d889ccea55e1dadc6a37d530dd
+    root_home: /root
+    macaddress: "00:50:56:AC:A3:7B"
+    blockdevice_sdb_vendor: VMware
+    kernel: Linux
+    swapsize: "8.00 GB"
+    clientversion: "3.8.6"
+    rubyplatform: x86_64-linux
+    nr_ruby_found: "true"
+    blockdevice_sdc_size: "53687091200"
+    puppet_vardir: /var/lib/puppet
+    gid: root
+    facterversion: "2.4.4"
+    bios_release_date: "06/22/2012"
+    os: familyRedHatreleaseminor6major6full6.6nameCentOS
+    user_exists_infraadm: ""
+    blockdevice_sdd_vendor: VMware
+    is_virtual: "true"
+    architecture: x86_64
+    ps: "ps -ef"
+    uptime_hours: "7741"
+    clientcert: postgresdbprod1.example.com
+    id: root
+    ipaddress_lo: "127.0.0.1"
+    augeasversion: "1.0.0"
+    filesystems: "ext4,iso9660"
+    fqdn: postgresdbprod1.example.com
+    kernelversion: "2.6.32"
+    ipaddress_eth0: "10.16.37.200"
+    blockdevice_sdb_model: "Virtual disk"
+    operatingsystemrelease: "6.6"
+    hardwareisa: x86_64
+    timezone: MDT
+    productname: "VMware Virtual Platform"
+    selinux: "false"
+    serialnumber: "VMware-42 2c 78 f5 6d 07 8a 0b-3f ad d7 54 0d ff ba 53"
+    processor1: "Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz"
+    swapfree: "8.00 GB"
+    memoryfree: "7.33 GB"
+    blockdevice_sda_model: "Virtual disk"
+    boardserialnumber: None
+    blockdevice_sdc_vendor: VMware
+    blockdevice_sr0_size: "64651264"
+    partitions: sdd1size104857568filesystemLVM2_membersda1uuidd68a3b32-ebaa-4d58-866d-e8331b626993size2097152mount/bootfilesystemext4sda2size207616000filesystemLVM2_membersdc1size104857568filesystemLVM2_membersde1size104857568filesystemLVM2_membersdb1size104857568filesystemLVM2_member
+    operatingsystemmajrelease: "6"
+    sshdsakey: "AAAAB3NzaC1kc3MAAACBAKTl7sTD75nK4u9g48njC44xw9/aDi4Gv1Nde0CU8f1uojL3NbzL2+uTX8t1jz7KuRdxtjxWsSIL1QwEA1cirbfy5QvrpsGjj1CLDcVphXsY/ydRNdKXf9FsohEL6i649Qgan1V2O2Z+eRJVPwZQxVaF91yfgIAZO0V5JgGQoDR/AAAAFQCjN8ef0Y+j6/sOusglHDbKTNxkNwAAAIB9jnxT6+ttdliJBK1Brz2nY3QOLxLCJHWJwrE++Q8YED8x8FVy9/JSKtVEG7R5sQBFIOWhtssgWv3ommdUaNONAlVsIUrPpcIYrj506GMbI4eri4BevJJMtN1A+q7LASAkWRfw/flK55duGganLqlINrIKDDRPUH7W00z2sOEZQwAAAIANUkcGUmtbRTfU2bZIPnJEJhKspxZ/amceQHErwJsCJdnu4ouD8Q1n0zxSzWzKJcW4EZVf+hxhg2sHYkvqQiJzgYpPnPRviLWXG0KqOJl8KRZEBl0inLd65tN4tEi0hjgxcK7KMP51ZioF0bRn4mo4iHzKHZ/CS64AaZHvTVA31Q=="
+    hostname: postgresdbprod1
+    netmask: "255.255.255.0"
+    user_exists_splex: ""
+    path: "/usr/bin:/sbin:/bin:/usr/sbin"
+    processorcount: "2"
+    sshrsakey: "AAAAB3NzaC1yc2EAAAABIwAAAQEAzQh0MWEDK7o1bm65ql/ishEox/Iayz6Jzf8XS1lQ9iC8TyB9HsJdA6qVzfKSGXwV7LPZ2Id9ZvF80RWO6Fff7CfVF8dH2OkztgIeRi28FfxMbbUoi1Oi653zJTyyF0qt6V1wmVttmiERrBnlwbj3j0nJSnS9DVgo44HpRL7sRYWmblN5EgAYgZR7C+l7msFlEg0vfW4eitDtKPgySTC9+oVXGZmLUSgGARrF6M87kLjU9w4JAn4zEoqaiDWPSLDEVuH6lHcg9hKVgSD23OsOe1fMa/YzGrSoQb/++MFXZ9JQB3ajXdGbcW3BaOexh/K1ZZpb1OWFjZ2ZojZcYEHNtQ=="
+    memoryfree_mb: "7510.14"
+    kernelrelease: "2.6.32-504.16.2.el6.x86_64"
+    domain: example.com
+    sshfp_rsa: |-
+      SSHFP 1 1 7c9997b278bb776a7f2beb0e1cabeeea19a14243
+      SSHFP 1 2 e947315617b5c816db14254e4cde67ec2edf063cfe8392e6fbebbba8c9d09c6b
+    blockdevice_sdb_size: "53687091200"
+    kernelmajversion: "2.6"
+    blockdevice_sr0_vendor: NECVMWar
+    concat_basedir: /var/lib/puppet/concat
+    is_pe: "false"
+    mtu_eth0: "1500"
+    blockdevice_sde_vendor: VMware
+    "_timestamp": "Wed May 04 10:33:37 -0600 2016"
+    network_eth0: "10.16.37.0"
+    blockdevice_sdd_size: "53687091200"
+    bios_vendor: "Phoenix Technologies LTD"
+    nr_java_found: "false"
+    network_lo: "127.0.0.0"
+    swapsize_mb: "8192.00"
+    boardproductname: "440BX Desktop Reference Platform"
+    memorysize_mb: "7872.62"
+    type: Other
+    boardmanufacturer: "Intel Corporation"
+    rubyversion: "1.8.7"
+    blockdevices: "sda,sdb,sdc,sdd,sde,sr0"
+    osfamily: RedHat
+    hardwaremodel: x86_64
+    rubysitedir: /usr/lib/ruby/site_ruby/1.8
+    blockdevice_sdc_model: "Virtual disk"
+    netmask_eth0: "255.255.255.0"
+    uptime_seconds: "27867717"
+    uniqueid: "100ac825"
+    uptime: "322 days"
+    processor0: "Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz"
+    virtual: vmware
+    clientnoop: "false"
+    netmask_lo: "255.0.0.0"
+    ipaddress: "10.16.37.200"
+    bios_version: "6.00"
+    swapfree_mb: "8192.00"
+    blockdevice_sde_size: "53687091200"
+    user_exists_oracle: "500"
+    physicalprocessorcount: "2"
+    manufacturer: "VMware, Inc."
+    uptime_days: "322"
+    uuid: "422C78F5-6D07-8A0B-3FAD-D7540DFFBA53"
+    user_exists_weblogic: ""
+    staging_http_get: curl
+    interfaces: "eth0,lo"
+    blockdevice_sda_vendor: VMware
+    blockdevice_sda_size: "107374182400"
+    operatingsystem: CentOS
+    blockdevice_sr0_model: "VMware IDE CDR10"
+    puppetversion: "3.8.6"
+    macaddress_eth0: "00:50:56:AC:A3:7B"
+    blockdevice_sde_model: "Virtual disk"
+    memorysize: "7.69 GB"
+    sudoversion: "1.8.6p3"
+    mtu_lo: "65536"
+    processors: "physicalcount2modelsIntel(R) Xeon(R) CPU           E5649  @ 2.53GHzIntel(R) Xeon(R) CPU           E5649  @ 2.53GHzcount2"
+    blockdevice_sdd_model: "Virtual disk"
+  name: postgresdbprod1.example.com
+  expiration: 2016-05-04 11:03:38.041436 -06:00
+  time: 2016-05-04 10:33:38.036638 -06:00
+  classes: []
+  facts: !ruby/object:Puppet::Node::Facts
+    values: 
+      system_uptime: "hours7741days322uptime322 daysseconds27867717"
+      sshfp_dsa: |-
+        SSHFP 2 1 a1c196f106b13024d26c8739eb20d3c44211ea8d
+        SSHFP 2 2 fc9ee89bfa6e7dfd35edc317381a61c2027342d889ccea55e1dadc6a37d530dd
+      root_home: /root
+      macaddress: "00:50:56:AC:A3:7B"
+      blockdevice_sdb_vendor: VMware
+      kernel: Linux
+      swapsize: "8.00 GB"
+      clientversion: "3.8.6"
+      rubyplatform: x86_64-linux
+      nr_ruby_found: "true"
+      blockdevice_sdc_size: "53687091200"
+      puppet_vardir: /var/lib/puppet
+      gid: root
+      facterversion: "2.4.4"
+      bios_release_date: "06/22/2012"
+      os: familyRedHatreleaseminor6major6full6.6nameCentOS
+      user_exists_infraadm: ""
+      blockdevice_sdd_vendor: VMware
+      is_virtual: "true"
+      architecture: x86_64
+      ps: "ps -ef"
+      uptime_hours: "7741"
+      clientcert: postgresdbprod1.example.com
+      id: root
+      ipaddress_lo: "127.0.0.1"
+      augeasversion: "1.0.0"
+      filesystems: "ext4,iso9660"
+      fqdn: postgresdbprod1.example.com
+      kernelversion: "2.6.32"
+      ipaddress_eth0: "10.16.37.200"
+      blockdevice_sdb_model: "Virtual disk"
+      operatingsystemrelease: "6.6"
+      hardwareisa: x86_64
+      timezone: MDT
+      productname: "VMware Virtual Platform"
+      selinux: "false"
+      serialnumber: "VMware-42 2c 78 f5 6d 07 8a 0b-3f ad d7 54 0d ff ba 53"
+      processor1: "Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz"
+      swapfree: "8.00 GB"
+      memoryfree: "7.33 GB"
+      blockdevice_sda_model: "Virtual disk"
+      boardserialnumber: None
+      blockdevice_sdc_vendor: VMware
+      blockdevice_sr0_size: "64651264"
+      partitions: sdd1size104857568filesystemLVM2_membersda1uuidd68a3b32-ebaa-4d58-866d-e8331b626993size2097152mount/bootfilesystemext4sda2size207616000filesystemLVM2_membersdc1size104857568filesystemLVM2_membersde1size104857568filesystemLVM2_membersdb1size104857568filesystemLVM2_member
+      operatingsystemmajrelease: "6"
+      sshdsakey: "AAAAB3NzaC1kc3MAAACBAKTl7sTD75nK4u9g48njC44xw9/aDi4Gv1Nde0CU8f1uojL3NbzL2+uTX8t1jz7KuRdxtjxWsSIL1QwEA1cirbfy5QvrpsGjj1CLDcVphXsY/ydRNdKXf9FsohEL6i649Qgan1V2O2Z+eRJVPwZQxVaF91yfgIAZO0V5JgGQoDR/AAAAFQCjN8ef0Y+j6/sOusglHDbKTNxkNwAAAIB9jnxT6+ttdliJBK1Brz2nY3QOLxLCJHWJwrE++Q8YED8x8FVy9/JSKtVEG7R5sQBFIOWhtssgWv3ommdUaNONAlVsIUrPpcIYrj506GMbI4eri4BevJJMtN1A+q7LASAkWRfw/flK55duGganLqlINrIKDDRPUH7W00z2sOEZQwAAAIANUkcGUmtbRTfU2bZIPnJEJhKspxZ/amceQHErwJsCJdnu4ouD8Q1n0zxSzWzKJcW4EZVf+hxhg2sHYkvqQiJzgYpPnPRviLWXG0KqOJl8KRZEBl0inLd65tN4tEi0hjgxcK7KMP51ZioF0bRn4mo4iHzKHZ/CS64AaZHvTVA31Q=="
+      hostname: postgresdbprod1
+      netmask: "255.255.255.0"
+      user_exists_splex: ""
+      path: "/usr/bin:/sbin:/bin:/usr/sbin"
+      processorcount: "2"
+      sshrsakey: "AAAAB3NzaC1yc2EAAAABIwAAAQEAzQh0MWEDK7o1bm65ql/ishEox/Iayz6Jzf8XS1lQ9iC8TyB9HsJdA6qVzfKSGXwV7LPZ2Id9ZvF80RWO6Fff7CfVF8dH2OkztgIeRi28FfxMbbUoi1Oi653zJTyyF0qt6V1wmVttmiERrBnlwbj3j0nJSnS9DVgo44HpRL7sRYWmblN5EgAYgZR7C+l7msFlEg0vfW4eitDtKPgySTC9+oVXGZmLUSgGARrF6M87kLjU9w4JAn4zEoqaiDWPSLDEVuH6lHcg9hKVgSD23OsOe1fMa/YzGrSoQb/++MFXZ9JQB3ajXdGbcW3BaOexh/K1ZZpb1OWFjZ2ZojZcYEHNtQ=="
+      memoryfree_mb: "7510.14"
+      kernelrelease: "2.6.32-504.16.2.el6.x86_64"
+      domain: example.com
+      sshfp_rsa: |-
+        SSHFP 1 1 7c9997b278bb776a7f2beb0e1cabeeea19a14243
+        SSHFP 1 2 e947315617b5c816db14254e4cde67ec2edf063cfe8392e6fbebbba8c9d09c6b
+      blockdevice_sdb_size: "53687091200"
+      kernelmajversion: "2.6"
+      blockdevice_sr0_vendor: NECVMWar
+      concat_basedir: /var/lib/puppet/concat
+      is_pe: "false"
+      mtu_eth0: "1500"
+      blockdevice_sde_vendor: VMware
+      "_timestamp": "Wed May 04 10:33:37 -0600 2016"
+      network_eth0: "10.16.37.0"
+      type: Other
+      memorysize_mb: "7872.62"
+      boardproductname: "440BX Desktop Reference Platform"
+      swapsize_mb: "8192.00"
+      network_lo: "127.0.0.0"
+      nr_java_found: "false"
+      bios_vendor: "Phoenix Technologies LTD"
+      blockdevice_sdd_size: "53687091200"
+      netmask_eth0: "255.255.255.0"
+      blockdevice_sdc_model: "Virtual disk"
+      rubysitedir: /usr/lib/ruby/site_ruby/1.8
+      hardwaremodel: x86_64
+      osfamily: RedHat
+      blockdevices: "sda,sdb,sdc,sdd,sde,sr0"
+      rubyversion: "1.8.7"
+      boardmanufacturer: "Intel Corporation"
+      virtual: vmware
+      processor0: "Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz"
+      uptime: "322 days"
+      uniqueid: "100ac825"
+      uptime_seconds: "27867717"
+      bios_version: "6.00"
+      ipaddress: "10.16.37.200"
+      netmask_lo: "255.0.0.0"
+      clientnoop: "false"
+      physicalprocessorcount: "2"
+      user_exists_oracle: "500"
+      blockdevice_sde_size: "53687091200"
+      swapfree_mb: "8192.00"
+      manufacturer: "VMware, Inc."
+      interfaces: "eth0,lo"
+      staging_http_get: curl
+      user_exists_weblogic: ""
+      uuid: "422C78F5-6D07-8A0B-3FAD-D7540DFFBA53"
+      uptime_days: "322"
+      memorysize: "7.69 GB"
+      blockdevice_sde_model: "Virtual disk"
+      macaddress_eth0: "00:50:56:AC:A3:7B"
+      puppetversion: "3.8.6"
+      blockdevice_sr0_model: "VMware IDE CDR10"
+      operatingsystem: CentOS
+      blockdevice_sda_size: "107374182400"
+      blockdevice_sda_vendor: VMware
+      blockdevice_sdd_model: "Virtual disk"
+      processors: "physicalcount2modelsIntel(R) Xeon(R) CPU           E5649  @ 2.53GHzIntel(R) Xeon(R) CPU           E5649  @ 2.53GHzcount2"
+      mtu_lo: "65536"
+      sudoversion: "1.8.6p3"
+    name: postgresdbprod1.example.com
+    expiration: 2016-05-04 11:03:00.125657 -06:00

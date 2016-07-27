@@ -1,0 +1,252 @@
+--- !ruby/object:Puppet::Node
+  environment: test
+  parameters: 
+    selinux: "false"
+    lsbminordistrelease: "6"
+    clientversion: "3.8.6"
+    netmask_eth1: "255.255.255.0"
+    netmask: "255.255.255.0"
+    boardmanufacturer: "Intel Corporation"
+    processor2: "Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz"
+    network_eth0: "10.16.99.0"
+    lsbdistdescription: "Oracle Linux Server release 6.6"
+    blockdevice_sdb_vendor: VMware
+    lsbdistid: OracleServer
+    uniqueid: "100a7463"
+    user_exists_oracle: "500"
+    ipaddress_eth1: "10.16.105.116"
+    processors: "count4physicalcount4modelsIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz"
+    blockdevice_sdb_model: "Virtual disk"
+    swapfree_mb: "8192.00"
+    osfamily: RedHat
+    os: "familyRedHatnameOracleLinuxreleasemajor6minor6full6.6lsbmajdistrelease6minordistrelease6distcodenamen/arelease:base-4.0-amd64:base-4.0-noarch:core-4.0-amd64:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-noarchdistdescriptionOracle Linux Server release 6.6distrelease6.6distidOracleServer"
+    blockdevice_sda_vendor: VMware
+    boardserialnumber: None
+    rubysitedir: /usr/lib/ruby/site_ruby/1.8
+    macaddress_eth0: "00:50:56:AC:EF:54"
+    mtu_eth0: "1500"
+    system_uptime: "seconds3459630hours961days40uptime40 days"
+    facterversion: "2.4.1"
+    is_pe: "false"
+    user_exists_infraadm: ""
+    manufacturer: "VMware, Inc."
+    lsbmajdistrelease: "6"
+    blockdevice_sr0_model: "VMware IDE CDR10"
+    kernelrelease: "3.8.13-68.el6uek.x86_64"
+    macaddress: "00:50:56:AC:EF:54"
+    memoryfree: "21.88 GB"
+    hostname: agileapptest2
+    processor3: "Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz"
+    domain: example.com
+    operatingsystemmajrelease: "6"
+    network_eth1: "10.16.105.0"
+    filesystems: "ext4,iso9660"
+    sshdsakey: "AAAAB3NzaC1kc3MAAACBANYKs6kDwGR7ecB0we7TwfDCVa1KvZIOSKjVOu8EWOWFCM0/8p2LUfwfLotU3alXwPxsiXvManBPrlbclkwGnj/oSIBlNc5sYc9rdGoCMwkZfYzI2uKwdo41D64/IXzS7TjA8kVCcxNGwhpl1Pe24ZtTJBFTJ4ZMZFSzdwX4lrKPAAAAFQD07TIClQhkuIr+abxF4a7tayTZ/QAAAIB1j1EqFlYlnHIJTwNdkBWxHgCal6Ge4Qbez5qvMFgEyZzbyucgrXOf/n2V9R8WXf5OOOtl3ohy2w4cCXVx90r8/uBdYP8v/MEkt22pDcMjimrHeyFarMN93z29D/W2MJfM0t6XzkITRZapFVPy4OJcKDBu2CcnIokOAheWL9YJSwAAAIEAlR/Meu9X9+RLK3HRqx6M5vXTSAAj5KMbyv57lu/pOvr0/dviqhTl1RSf2/q+X49SyWZqrd6wlgb74DYDqDebiOZCY2KROvEhowheYPt3YkGzPLbhT+qR3XGoyHMBC6/rAk3eYJc7iUwLil/dx/UMybyf+tVlwNVJoAfHG76/c48="
+    environment: test
+    fqdn: agileapptest2.example.com
+    architecture: x86_64
+    hardwaremodel: x86_64
+    processor0: "Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz"
+    virtual: vmware
+    partitions: sda1size2097152mount/bootfilesystemext4uuideed8626d-ce14-4251-bc73-bce599657099sda2size207616000filesystemLVM2_membersdb1size419424957filesystemLVM2_member
+    kernelversion: "3.8.13"
+    mtu_lo: "65536"
+    kernel: Linux
+    blockdevice_fd0_size: "4096"
+    gid: root
+    swapfree: "8.00 GB"
+    clientcert: agileapptest2.example.com
+    kernelmajversion: "3.8"
+    ps: "ps -ef"
+    lsbdistrelease: "6.6"
+    sshrsakey: "AAAAB3NzaC1yc2EAAAABIwAAAQEA8XSh9vHzwMygAoFv6cO2At57ZLI9vh4LtzPximFt91CDGe+ryPz+hl7GXtLNvZI6fLpdISJnkJivJgy3B76x9o459ww5ciDHuewm7o6+q8B4iAYH6Hludb7DCG+eC/wa4mT4aU6k+ol1kX2aJtYAVut78OrGmrt+5xO2s2pCll/CZkeR3d2cOoyXMygkXiICmu6rGrSt4ljA/X3M/jxyfh9udDAZnpGzcl8nFMWbcmGfwtx0EIr/oHnEBZT2nxep0lZ1vnfkKBfYTEiOYffna7zCLf36YJZr0EpeDbB/aIRy3LX4YTWb1+mZtLY0s6UWiV/BFbsbEDsffr0oA7oN4Q=="
+    blockdevice_sda_model: "Virtual disk"
+    interfaces: "eth0,eth1,lo"
+    root_home: /root
+    bios_version: "6.00"
+    id: root
+    bios_release_date: "04/14/2014"
+    timezone: MDT
+    macaddress_eth1: "00:50:56:AC:CA:6C"
+    mtu_eth1: "1500"
+    rubyversion: "1.8.7"
+    augeasversion: "1.0.0"
+    swapsize_mb: "8192.00"
+    ipaddress_lo: "127.0.0.1"
+    swapsize: "8.00 GB"
+    operatingsystemrelease: "6.6"
+    user_exists_weblogic: ""
+    netmask_lo: "255.0.0.0"
+    blockdevice_sr0_vendor: NECVMWar
+    clientnoop: "false"
+    uuid: "422CECEB-8650-B890-F8CA-8EBD036FF8CE"
+    "_timestamp": "Wed May 04 10:48:56 -0600 2016"
+    blockdevice_sr0_size: "1073741312"
+    path: "/usr/bin:/sbin:/bin:/usr/sbin"
+    concat_basedir: /var/lib/puppet/concat
+    serialnumber: "VMware-42 2c ec eb 86 50 b8 90-f8 ca 8e bd 03 6f f8 ce"
+    bios_vendor: "Phoenix Technologies LTD"
+    boardproductname: "440BX Desktop Reference Platform"
+    processorcount: "4"
+    puppet_vardir: /var/lib/puppet
+    processor1: "Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz"
+    uptime: "40 days"
+    uptime_hours: "961"
+    user_exists_splex: ""
+    netmask_eth0: "255.255.255.0"
+    lsbrelease: ":base-4.0-amd64:base-4.0-noarch:core-4.0-amd64:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-noarch"
+    memorysize_mb: "31919.69"
+    memoryfree_mb: "22404.55"
+    physicalprocessorcount: "4"
+    uptime_days: "40"
+    memorysize: "31.17 GB"
+    ipaddress_eth0: "10.16.99.116"
+    ipaddress: "10.16.99.116"
+    lsbdistcodename: n/a
+    blockdevice_sda_size: "107374182400"
+    is_virtual: "true"
+    blockdevices: "fd0,sda,sdb,sr0"
+    rubyplatform: x86_64-linux
+    sshfp_dsa: |-
+      SSHFP 2 1 670323fe0130103da9daecf6c6ce8f9c14ccc10f
+      SSHFP 2 2 9467db647aa9dc78e77182a8d8c2e49501863b4e7cac320a010cfb85545bf672
+    sshfp_rsa: |-
+      SSHFP 1 1 0d9e4a6946f9223be095ec37df2902c603cad16f
+      SSHFP 1 2 3789ab37a748e7d467dacf08389be126a000aa1a30c22795a9aecb93f49032f1
+    type: Other
+    productname: "VMware Virtual Platform"
+    network_lo: "127.0.0.0"
+    uptime_seconds: "3459630"
+    operatingsystem: OracleLinux
+    hardwareisa: x86_64
+    blockdevice_sdb_size: "214748364800"
+    sudoversion: "1.8.6p3"
+    puppetversion: "3.8.6"
+  name: agileapptest2.example.com
+  expiration: 2016-05-04 11:18:56.645268 -06:00
+  time: 2016-05-04 10:48:56.643141 -06:00
+  classes: []
+  facts: !ruby/object:Puppet::Node::Facts
+    values: 
+      selinux: "false"
+      lsbminordistrelease: "6"
+      clientversion: "3.8.6"
+      netmask_eth1: "255.255.255.0"
+      netmask: "255.255.255.0"
+      boardmanufacturer: "Intel Corporation"
+      processor2: "Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz"
+      network_eth0: "10.16.99.0"
+      lsbdistdescription: "Oracle Linux Server release 6.6"
+      blockdevice_sdb_vendor: VMware
+      lsbdistid: OracleServer
+      uniqueid: "100a7463"
+      user_exists_oracle: "500"
+      ipaddress_eth1: "10.16.105.116"
+      processors: "count4physicalcount4modelsIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHzIntel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz"
+      blockdevice_sdb_model: "Virtual disk"
+      swapfree_mb: "8192.00"
+      osfamily: RedHat
+      os: "familyRedHatnameOracleLinuxreleasemajor6minor6full6.6lsbmajdistrelease6minordistrelease6distcodenamen/arelease:base-4.0-amd64:base-4.0-noarch:core-4.0-amd64:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-noarchdistdescriptionOracle Linux Server release 6.6distrelease6.6distidOracleServer"
+      blockdevice_sda_vendor: VMware
+      boardserialnumber: None
+      rubysitedir: /usr/lib/ruby/site_ruby/1.8
+      macaddress_eth0: "00:50:56:AC:EF:54"
+      mtu_eth0: "1500"
+      system_uptime: "seconds3459630hours961days40uptime40 days"
+      facterversion: "2.4.1"
+      is_pe: "false"
+      user_exists_infraadm: ""
+      manufacturer: "VMware, Inc."
+      lsbmajdistrelease: "6"
+      blockdevice_sr0_model: "VMware IDE CDR10"
+      kernelrelease: "3.8.13-68.el6uek.x86_64"
+      macaddress: "00:50:56:AC:EF:54"
+      memoryfree: "21.88 GB"
+      hostname: agileapptest2
+      processor3: "Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz"
+      domain: example.com
+      operatingsystemmajrelease: "6"
+      network_eth1: "10.16.105.0"
+      filesystems: "ext4,iso9660"
+      sshdsakey: "AAAAB3NzaC1kc3MAAACBANYKs6kDwGR7ecB0we7TwfDCVa1KvZIOSKjVOu8EWOWFCM0/8p2LUfwfLotU3alXwPxsiXvManBPrlbclkwGnj/oSIBlNc5sYc9rdGoCMwkZfYzI2uKwdo41D64/IXzS7TjA8kVCcxNGwhpl1Pe24ZtTJBFTJ4ZMZFSzdwX4lrKPAAAAFQD07TIClQhkuIr+abxF4a7tayTZ/QAAAIB1j1EqFlYlnHIJTwNdkBWxHgCal6Ge4Qbez5qvMFgEyZzbyucgrXOf/n2V9R8WXf5OOOtl3ohy2w4cCXVx90r8/uBdYP8v/MEkt22pDcMjimrHeyFarMN93z29D/W2MJfM0t6XzkITRZapFVPy4OJcKDBu2CcnIokOAheWL9YJSwAAAIEAlR/Meu9X9+RLK3HRqx6M5vXTSAAj5KMbyv57lu/pOvr0/dviqhTl1RSf2/q+X49SyWZqrd6wlgb74DYDqDebiOZCY2KROvEhowheYPt3YkGzPLbhT+qR3XGoyHMBC6/rAk3eYJc7iUwLil/dx/UMybyf+tVlwNVJoAfHG76/c48="
+      fqdn: agileapptest2.example.com
+      architecture: x86_64
+      hardwaremodel: x86_64
+      processor0: "Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz"
+      virtual: vmware
+      partitions: sda1size2097152mount/bootfilesystemext4uuideed8626d-ce14-4251-bc73-bce599657099sda2size207616000filesystemLVM2_membersdb1size419424957filesystemLVM2_member
+      kernelversion: "3.8.13"
+      mtu_lo: "65536"
+      kernel: Linux
+      blockdevice_fd0_size: "4096"
+      gid: root
+      swapfree: "8.00 GB"
+      clientcert: agileapptest2.example.com
+      kernelmajversion: "3.8"
+      ps: "ps -ef"
+      lsbdistrelease: "6.6"
+      sshrsakey: "AAAAB3NzaC1yc2EAAAABIwAAAQEA8XSh9vHzwMygAoFv6cO2At57ZLI9vh4LtzPximFt91CDGe+ryPz+hl7GXtLNvZI6fLpdISJnkJivJgy3B76x9o459ww5ciDHuewm7o6+q8B4iAYH6Hludb7DCG+eC/wa4mT4aU6k+ol1kX2aJtYAVut78OrGmrt+5xO2s2pCll/CZkeR3d2cOoyXMygkXiICmu6rGrSt4ljA/X3M/jxyfh9udDAZnpGzcl8nFMWbcmGfwtx0EIr/oHnEBZT2nxep0lZ1vnfkKBfYTEiOYffna7zCLf36YJZr0EpeDbB/aIRy3LX4YTWb1+mZtLY0s6UWiV/BFbsbEDsffr0oA7oN4Q=="
+      blockdevice_sda_model: "Virtual disk"
+      interfaces: "eth0,eth1,lo"
+      root_home: /root
+      bios_version: "6.00"
+      id: root
+      bios_release_date: "04/14/2014"
+      timezone: MDT
+      macaddress_eth1: "00:50:56:AC:CA:6C"
+      mtu_eth1: "1500"
+      rubyversion: "1.8.7"
+      augeasversion: "1.0.0"
+      swapsize_mb: "8192.00"
+      ipaddress_lo: "127.0.0.1"
+      swapsize: "8.00 GB"
+      operatingsystemrelease: "6.6"
+      user_exists_weblogic: ""
+      netmask_lo: "255.0.0.0"
+      blockdevice_sr0_vendor: NECVMWar
+      clientnoop: "false"
+      uuid: "422CECEB-8650-B890-F8CA-8EBD036FF8CE"
+      "_timestamp": "Wed May 04 10:48:56 -0600 2016"
+      blockdevice_sr0_size: "1073741312"
+      path: "/usr/bin:/sbin:/bin:/usr/sbin"
+      concat_basedir: /var/lib/puppet/concat
+      serialnumber: "VMware-42 2c ec eb 86 50 b8 90-f8 ca 8e bd 03 6f f8 ce"
+      bios_vendor: "Phoenix Technologies LTD"
+      boardproductname: "440BX Desktop Reference Platform"
+      processorcount: "4"
+      puppet_vardir: /var/lib/puppet
+      processor1: "Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz"
+      uptime: "40 days"
+      uptime_hours: "961"
+      user_exists_splex: ""
+      netmask_eth0: "255.255.255.0"
+      lsbrelease: ":base-4.0-amd64:base-4.0-noarch:core-4.0-amd64:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-noarch"
+      memorysize_mb: "31919.69"
+      memoryfree_mb: "22404.55"
+      physicalprocessorcount: "4"
+      uptime_days: "40"
+      memorysize: "31.17 GB"
+      ipaddress_eth0: "10.16.99.116"
+      ipaddress: "10.16.99.116"
+      lsbdistcodename: n/a
+      blockdevice_sda_size: "107374182400"
+      is_virtual: "true"
+      blockdevices: "fd0,sda,sdb,sr0"
+      rubyplatform: x86_64-linux
+      sshfp_dsa: |-
+        SSHFP 2 1 670323fe0130103da9daecf6c6ce8f9c14ccc10f
+        SSHFP 2 2 9467db647aa9dc78e77182a8d8c2e49501863b4e7cac320a010cfb85545bf672
+      sshfp_rsa: |-
+        SSHFP 1 1 0d9e4a6946f9223be095ec37df2902c603cad16f
+        SSHFP 1 2 3789ab37a748e7d467dacf08389be126a000aa1a30c22795a9aecb93f49032f1
+      type: Other
+      productname: "VMware Virtual Platform"
+      network_lo: "127.0.0.0"
+      uptime_seconds: "3459630"
+      operatingsystem: OracleLinux
+      hardwareisa: x86_64
+      blockdevice_sdb_size: "214748364800"
+      puppetversion: "3.8.6"
+      sudoversion: "1.8.6p3"
+    name: agileapptest2.example.com
+    expiration: 2016-05-04 11:18:18.729817 -06:00

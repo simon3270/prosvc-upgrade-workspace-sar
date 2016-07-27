@@ -1,0 +1,220 @@
+--- !ruby/object:Puppet::Node
+  environment: production
+  parameters: 
+    network_eth0: "10.16.79.0"
+    virtual: vmware
+    timezone: MDT
+    uniqueid: "100a144f"
+    processor0: "Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz"
+    physicalprocessorcount: "1"
+    is_pe: "false"
+    interfaces: "eth0,lo"
+    uptime_seconds: "15019226"
+    kernelmajversion: "2.6"
+    swapfree_mb: "8181.30"
+    path: "/usr/bin:/sbin:/bin:/usr/sbin"
+    operatingsystemrelease: "6.7"
+    swapsize_mb: "8192.00"
+    sshdsakey: "AAAAB3NzaC1kc3MAAACBAI6htLrnC9gDCFOP41ll6Ycc3Jjz6jmgfY7qyrSXvQRn0tsJ8CMlAMGPR5d7u8pD2Qaq/k0WAKr/FtuMKmZhAQbI2+sYquIlkITzN9uuhHjcfluYmfj/W8QnWzJ447sjeN5acI/wXAR0GageIl9wECeA6IBp4OklipOxu3KCpIVlAAAAFQDmu6uRegPqPPp0MraZDrrYkVQy/QAAAIAJYYn2bnhWp3f8ccIzlunCzym8dbPW/+D4EG1/9ZsdKmMU99u9IUpWjFkreR3xRu5Kh8kJVxW4vwWiMFlPQHF6OanOeeF1eMdIZqdgvcRRzCoM9rvIvF16rK3hdtv6Hx2c7gsKLikiKxANvD+kyqjKeoCMuhMXD0YnfrTM7ZVXOQAAAIA/kmwp0DUqNLg/K+4YOt48UsMu/ANErgZBKA4AGuC8l8bOeDHkeaweIqpyK+4lpM3g2Xe9bQ5xM+CinpZ7vZdSjMm7K5n+QPWDwYoOn3yXGn9kvoWOTH6zkjXc71nv23khBDCuNKmnrJwWRzIfz3et7OA6BuZkbUwdmQj+mOhZmA=="
+    clientversion: "3.8.4"
+    blockdevice_sda_vendor: VMware
+    productname: "VMware Virtual Platform"
+    user_exists_splex: ""
+    netmask_eth0: "255.255.255.0"
+    bios_release_date: "04/14/2014"
+    filesystems: "ext4,iso9660"
+    network_lo: "127.0.0.0"
+    augeasversion: "1.0.0"
+    blockdevice_sda_model: "Virtual disk"
+    uptime_hours: "4172"
+    mtu_eth0: "1500"
+    blockdevice_sr0_size: "414187520"
+    kernel: Linux
+    hostname: installinfra1
+    sshrsakey: "AAAAB3NzaC1yc2EAAAABIwAAAQEAw3fF/r5aW/EM3hASTIuYBMgGvUNdq05YXd001NUXvdSpqvoh8u8JvxEDm1HC2MeVLrCYfyD8v17WqqzeqBpAaldGj5z8dX9QITio/womAKJWzKDWzjNoBwogxSueXWFKi/axpEbsX75q+Qn4qIjoTCtmzGcGso4wR2/t1fihXgiY5bjFujwGWet30XWv1HeLyG0HvW/chh8+aiqOVYb+vroLwsVNg6VSSLCsXr/iQcN8mHtw9vh47WbtFcIfETQran73ssjNItm6XswZMYG4DSo0I8UotX+SF0ayGuPvQkheJCgKZ1VJtl2JM1iRGPukioC1qcrNtM0vagt5foJ9gw=="
+    os: familyRedHatreleasefull6.7minor7major6nameCentOS
+    user_exists_weblogic: ""
+    type: Other
+    uptime: "173 days"
+    memoryfree_mb: "321.97"
+    processors: "count1modelsIntel(R) Xeon(R) CPU           E5649  @ 2.53GHzphysicalcount1"
+    macaddress_eth0: "00:50:56:AC:59:93"
+    processorcount: "1"
+    bios_vendor: "Phoenix Technologies LTD"
+    "_timestamp": "Wed May 04 10:50:41 -0600 2016"
+    ps: "ps -ef"
+    boardproductname: "440BX Desktop Reference Platform"
+    boardmanufacturer: "Intel Corporation"
+    memoryfree: "321.97 MB"
+    is_virtual: "true"
+    macaddress: "00:50:56:AC:59:93"
+    osfamily: RedHat
+    puppetversion: "3.8.4"
+    sshfp_dsa: |-
+      SSHFP 2 1 395ef0a8ebdaae6ebe1a261d438ad25457826f74
+      SSHFP 2 2 d209814ed221e09f988583e3c1d44321469473e78427101a1d4c97a47a22f202
+    environment: production
+    rubyplatform: x86_64-linux
+    mtu_lo: "65536"
+    kernelversion: "2.6.32"
+    blockdevice_sda_size: "107374182400"
+    blockdevices: "sda,sr0"
+    clientcert: installinfra1.example.com
+    id: root
+    user_exists_oracle: ""
+    swapsize: "8.00 GB"
+    ipaddress_lo: "127.0.0.1"
+    ipaddress: "10.16.79.20"
+    staging_http_get: curl
+    clientnoop: "false"
+    operatingsystemmajrelease: "6"
+    uuid: "422C36E4-754A-BF07-F24E-6134E85EE7BD"
+    domain: example.com
+    netmask: "255.255.255.0"
+    facterversion: "2.4.4"
+    netmask_lo: "255.0.0.0"
+    blockdevice_sr0_vendor: NECVMWar
+    operatingsystem: CentOS
+    rubyversion: "1.8.7"
+    manufacturer: "VMware, Inc."
+    swapfree: "7.99 GB"
+    hardwaremodel: x86_64
+    partitions: sda1uuid458d2e2d-98bf-489b-8cc0-34afa8e0dd56filesystemext4size2097152mount/bootsda2filesystemLVM2_membersize207616000
+    bios_version: "6.00"
+    root_home: /root
+    rubysitedir: /usr/lib/ruby/site_ruby/1.8
+    hardwareisa: x86_64
+    ipaddress_eth0: "10.16.79.20"
+    gid: root
+    user_exists_infraadm: ""
+    sshfp_rsa: |-
+      SSHFP 1 1 3e9f6d2043d8fe4e1d91a0d28a2a408044971818
+      SSHFP 1 2 ff805f1283c053c2c7829fa792140f3f71c9420ad19dae2b23b6e72788ce9975
+    system_uptime: "seconds15019226days173hours4172uptime173 days"
+    boardserialnumber: None
+    serialnumber: "VMware-42 2c 36 e4 75 4a bf 07-f2 4e 61 34 e8 5e e7 bd"
+    nr_java_found: "false"
+    kernelrelease: "2.6.32-573.8.1.el6.x86_64"
+    concat_basedir: /var/lib/puppet/concat
+    memorysize_mb: "490.22"
+    fqdn: installinfra1.example.com
+    puppet_vardir: /var/lib/puppet
+    memorysize: "490.22 MB"
+    selinux: "false"
+    architecture: x86_64
+    sudoversion: "1.8.6p3"
+    nr_ruby_found: "true"
+    blockdevice_sr0_model: "VMware SATA CD00"
+    uptime_days: "173"
+  name: installinfra1.example.com
+  expiration: 2016-05-04 11:20:41.265582 -06:00
+  time: 2016-05-04 10:50:41.261509 -06:00
+  classes: []
+  facts: !ruby/object:Puppet::Node::Facts
+    values: 
+      network_eth0: "10.16.79.0"
+      virtual: vmware
+      timezone: MDT
+      uniqueid: "100a144f"
+      processor0: "Intel(R) Xeon(R) CPU           E5649  @ 2.53GHz"
+      physicalprocessorcount: "1"
+      is_pe: "false"
+      interfaces: "eth0,lo"
+      uptime_seconds: "15019226"
+      kernelmajversion: "2.6"
+      swapfree_mb: "8181.30"
+      path: "/usr/bin:/sbin:/bin:/usr/sbin"
+      operatingsystemrelease: "6.7"
+      swapsize_mb: "8192.00"
+      sshdsakey: "AAAAB3NzaC1kc3MAAACBAI6htLrnC9gDCFOP41ll6Ycc3Jjz6jmgfY7qyrSXvQRn0tsJ8CMlAMGPR5d7u8pD2Qaq/k0WAKr/FtuMKmZhAQbI2+sYquIlkITzN9uuhHjcfluYmfj/W8QnWzJ447sjeN5acI/wXAR0GageIl9wECeA6IBp4OklipOxu3KCpIVlAAAAFQDmu6uRegPqPPp0MraZDrrYkVQy/QAAAIAJYYn2bnhWp3f8ccIzlunCzym8dbPW/+D4EG1/9ZsdKmMU99u9IUpWjFkreR3xRu5Kh8kJVxW4vwWiMFlPQHF6OanOeeF1eMdIZqdgvcRRzCoM9rvIvF16rK3hdtv6Hx2c7gsKLikiKxANvD+kyqjKeoCMuhMXD0YnfrTM7ZVXOQAAAIA/kmwp0DUqNLg/K+4YOt48UsMu/ANErgZBKA4AGuC8l8bOeDHkeaweIqpyK+4lpM3g2Xe9bQ5xM+CinpZ7vZdSjMm7K5n+QPWDwYoOn3yXGn9kvoWOTH6zkjXc71nv23khBDCuNKmnrJwWRzIfz3et7OA6BuZkbUwdmQj+mOhZmA=="
+      clientversion: "3.8.4"
+      blockdevice_sda_vendor: VMware
+      productname: "VMware Virtual Platform"
+      user_exists_splex: ""
+      netmask_eth0: "255.255.255.0"
+      bios_release_date: "04/14/2014"
+      filesystems: "ext4,iso9660"
+      network_lo: "127.0.0.0"
+      augeasversion: "1.0.0"
+      blockdevice_sda_model: "Virtual disk"
+      uptime_hours: "4172"
+      mtu_eth0: "1500"
+      blockdevice_sr0_size: "414187520"
+      kernel: Linux
+      hostname: installinfra1
+      sshrsakey: "AAAAB3NzaC1yc2EAAAABIwAAAQEAw3fF/r5aW/EM3hASTIuYBMgGvUNdq05YXd001NUXvdSpqvoh8u8JvxEDm1HC2MeVLrCYfyD8v17WqqzeqBpAaldGj5z8dX9QITio/womAKJWzKDWzjNoBwogxSueXWFKi/axpEbsX75q+Qn4qIjoTCtmzGcGso4wR2/t1fihXgiY5bjFujwGWet30XWv1HeLyG0HvW/chh8+aiqOVYb+vroLwsVNg6VSSLCsXr/iQcN8mHtw9vh47WbtFcIfETQran73ssjNItm6XswZMYG4DSo0I8UotX+SF0ayGuPvQkheJCgKZ1VJtl2JM1iRGPukioC1qcrNtM0vagt5foJ9gw=="
+      os: familyRedHatreleasefull6.7minor7major6nameCentOS
+      user_exists_weblogic: ""
+      type: Other
+      uptime: "173 days"
+      memoryfree_mb: "321.97"
+      processors: "count1modelsIntel(R) Xeon(R) CPU           E5649  @ 2.53GHzphysicalcount1"
+      macaddress_eth0: "00:50:56:AC:59:93"
+      processorcount: "1"
+      bios_vendor: "Phoenix Technologies LTD"
+      "_timestamp": "Wed May 04 10:50:41 -0600 2016"
+      ps: "ps -ef"
+      boardproductname: "440BX Desktop Reference Platform"
+      boardmanufacturer: "Intel Corporation"
+      memoryfree: "321.97 MB"
+      is_virtual: "true"
+      macaddress: "00:50:56:AC:59:93"
+      osfamily: RedHat
+      puppetversion: "3.8.4"
+      sshfp_dsa: |-
+        SSHFP 2 1 395ef0a8ebdaae6ebe1a261d438ad25457826f74
+        SSHFP 2 2 d209814ed221e09f988583e3c1d44321469473e78427101a1d4c97a47a22f202
+      rubyplatform: x86_64-linux
+      mtu_lo: "65536"
+      kernelversion: "2.6.32"
+      blockdevice_sda_size: "107374182400"
+      blockdevices: "sda,sr0"
+      clientcert: installinfra1.example.com
+      id: root
+      user_exists_oracle: ""
+      swapsize: "8.00 GB"
+      ipaddress_lo: "127.0.0.1"
+      ipaddress: "10.16.79.20"
+      staging_http_get: curl
+      clientnoop: "false"
+      operatingsystemmajrelease: "6"
+      uuid: "422C36E4-754A-BF07-F24E-6134E85EE7BD"
+      domain: example.com
+      operatingsystem: CentOS
+      blockdevice_sr0_vendor: NECVMWar
+      netmask_lo: "255.0.0.0"
+      facterversion: "2.4.4"
+      netmask: "255.255.255.0"
+      hardwaremodel: x86_64
+      swapfree: "7.99 GB"
+      manufacturer: "VMware, Inc."
+      rubyversion: "1.8.7"
+      user_exists_infraadm: ""
+      gid: root
+      ipaddress_eth0: "10.16.79.20"
+      hardwareisa: x86_64
+      rubysitedir: /usr/lib/ruby/site_ruby/1.8
+      root_home: /root
+      bios_version: "6.00"
+      partitions: sda1uuid458d2e2d-98bf-489b-8cc0-34afa8e0dd56filesystemext4size2097152mount/bootsda2filesystemLVM2_membersize207616000
+      concat_basedir: /var/lib/puppet/concat
+      kernelrelease: "2.6.32-573.8.1.el6.x86_64"
+      nr_java_found: "false"
+      serialnumber: "VMware-42 2c 36 e4 75 4a bf 07-f2 4e 61 34 e8 5e e7 bd"
+      boardserialnumber: None
+      system_uptime: "seconds15019226days173hours4172uptime173 days"
+      sshfp_rsa: |-
+        SSHFP 1 1 3e9f6d2043d8fe4e1d91a0d28a2a408044971818
+        SSHFP 1 2 ff805f1283c053c2c7829fa792140f3f71c9420ad19dae2b23b6e72788ce9975
+      memorysize_mb: "490.22"
+      uptime_days: "173"
+      blockdevice_sr0_model: "VMware SATA CD00"
+      nr_ruby_found: "true"
+      sudoversion: "1.8.6p3"
+      architecture: x86_64
+      selinux: "false"
+      memorysize: "490.22 MB"
+      puppet_vardir: /var/lib/puppet
+      fqdn: installinfra1.example.com
+    name: installinfra1.example.com
+    expiration: 2016-05-04 11:20:03.356692 -06:00

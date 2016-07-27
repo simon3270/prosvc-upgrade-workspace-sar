@@ -1,0 +1,102 @@
+--- !ruby/object:Puppet::Node::Facts
+  values: 
+    operatingsystem: CentOS
+    kernelversion: "2.6.32"
+    swapfree: "8.00 GB"
+    facterversion: "2.4.4"
+    id: root
+    osfamily: RedHat
+    hardwareisa: x86_64
+    hardwaremodel: x86_64
+    serialnumber: "VMware-42 2c c8 0a c6 dd bb a2-fa a0 c0 0a e9 35 59 c8"
+    uptime: "19:00 hours"
+    blockdevice_sr0_size: "401604608"
+    blockdevice_sr0_model: "VMware IDE CDR10"
+    virtual: vmware
+    processorcount: "1"
+    root_home: /root
+    processor0: "Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz"
+    sudoversion: "1.8.6p3"
+    uptime_seconds: "68425"
+    rubysitedir: /usr/lib/ruby/site_ruby/1.8
+    is_pe: "false"
+    ipaddress_eth0: "10.16.47.252"
+    network_eth0: "10.16.47.0"
+    gid: root
+    sshfp_rsa: |-
+      SSHFP 1 1 549b56c9b1da2b6a34d04c4943378fd8bc254181
+      SSHFP 1 2 ddbcb7d62c7e9d9e87b975fb1bf30361f5d77044080cb75b08c4ba40fd31dd67
+    swapfree_mb: "8192.00"
+    memoryfree: "1.46 GB"
+    timezone: MDT
+    rubyversion: "1.8.7"
+    macaddress_eth0: "00:50:56:AC:59:B7"
+    partitions: sda1filesystemext4uuidb849920f-7bd6-4c95-a473-8285218333afsize2097152mount/bootsda2filesystemLVM2_membersize123729920
+    bios_release_date: "08/16/2013"
+    netmask_lo: "255.0.0.0"
+    uptime_hours: "19"
+    mtu_lo: "65536"
+    boardmanufacturer: "Intel Corporation"
+    uptime_days: "0"
+    memorysize: "1.83 GB"
+    uuid: "422CC80A-C6DD-BBA2-FAA0-C00AE93559C8"
+    rubyplatform: x86_64-linux
+    kernel: Linux
+    memorysize_mb: "1877.32"
+    puppet_vardir: /var/lib/puppet
+    fqdn: sensu.example.com
+    netmask_eth0: "255.255.255.0"
+    domain: example.com
+    processors: "count1physicalcount1modelsIntel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz"
+    blockdevice_sda_size: "64424509440"
+    concat_basedir: /var/lib/puppet/concat
+    system_uptime: "seconds68425days0uptime19:00 hourshours19"
+    netmask: "255.255.255.0"
+    hostname: sensu
+    physicalprocessorcount: "1"
+    sshdsakey: "AAAAB3NzaC1kc3MAAACBAKSEWUwynKKILi5ljBW9UaibxfnC+0xmw+WmQspEGKK/3STIvkCwbxJOw6bvMSP/e4MQ9cPSzFK7iIp6WqwjI5iDDTCnvkuv10+Eg+gAOarzljRCDd5QT8eyi8i2NH2Sde2LGAniNL+Vf2UypMi/gk43KowTj27db6C2OomgWY5DAAAAFQDBPU4L1SDsHuvcMQY9hYxefy/oKQAAAIBUgQMmZc7gOVZCxLss8RBjm+bjj5Eq6q+cPffeMGYzeflp5ICJFOmApQF9s3zhXU1NsAa60gR1Jft49lNHejMAweBa3Zj01khGTWREUDdyp0GY/oeTbkz/+JdW9LS8/E6p7a9Q2WM/lYdX+wWzO/sBzzCrKiFNoismhveGZ4yHCAAAAIEAowwi3cbT1itWf87h070cU0E3WzZc+f5b+u3HSR/K0nfSfoKnoi0co1N2Lg5UF8jLoI93bO5uPlAQmkgZ36RYsyifs5LLj1yHngce/kj0w9CFCwCA/ll8X3lI2fdFo7n6riT5mTH1FbR10QF9eMaXVtfKfJdb76p0Uh7xfxuu79g="
+    manufacturer: "VMware, Inc."
+    os: releasefull6.6minor6major6familyRedHatnameCentOS
+    memoryfree_mb: "1493.57"
+    ps: "ps -ef"
+    uniqueid: "00000000"
+    operatingsystemrelease: "6.6"
+    boardproductname: "440BX Desktop Reference Platform"
+    sshrsakey: "AAAAB3NzaC1yc2EAAAABIwAAAQEAwP6VBjPUPZ+AkajalsAf8YrTwZOQv1n6aLV0pnvXfkwucAuKmztwOPGvFgek7NM7h5XK3cR1/jKQW2i0cNVlYLuydcwrHK1wxYm21zPU0Id0Pz/033gkXrQw4DGVnxiiaEv58R6yNxlMQ5NCWuQram7r2gYeXUBD6csAh0LdXC+ROfiK8fka1Yh6tma4Ep/rcpiEt0CBCvVpJb5BOiCPZOqj37nNglOy0FlB/iPykDe95wH1SskhIEW5Xmxjt1bJKtZtrm66Y++9BMyJpNQEO6DpnFP8ZV9C5rkwvdpdovw1+HqWWrfVMuAl74hz3xwAvos7MIc4bfRpEbDL9WLCFQ=="
+    blockdevice_sda_vendor: VMware
+    blockdevices: "sda,sr0"
+    macaddress: "00:50:56:AC:59:B7"
+    clientnoop: "false"
+    productname: "VMware Virtual Platform"
+    selinux: "false"
+    is_virtual: "true"
+    operatingsystemmajrelease: "6"
+    blockdevice_sr0_vendor: NECVMWar
+    clientversion: "3.8.1"
+    ipaddress_lo: "127.0.0.1"
+    clientcert: sensu.example.com
+    network_lo: "127.0.0.0"
+    kernelrelease: "2.6.32-504.16.2.el6.x86_64"
+    sshfp_dsa: |-
+      SSHFP 2 1 c3102facaf295a540f3194653f8b5759de798bdb
+      SSHFP 2 2 242b3b82d5a452bd44056eb95fb270926d3d7544670ca042222a2985e3c5f983
+    ipaddress: "10.16.47.252"
+    architecture: x86_64
+    boardserialnumber: None
+    type: Other
+    "_timestamp": 2015-08-19 15:08:06.098872 -06:00
+    bios_vendor: "Phoenix Technologies LTD"
+    kernelmajversion: "2.6"
+    swapsize: "8.00 GB"
+    blockdevice_sda_model: "Virtual disk"
+    augeasversion: "1.0.0"
+    interfaces: "eth0,lo"
+    filesystems: "ext4,iso9660"
+    path: "/usr/bin:/sbin:/bin:/usr/sbin"
+    bios_version: "6.00"
+    puppetversion: "3.8.1"
+    mtu_eth0: "1500"
+    staging_http_get: curl
+    swapsize_mb: "8192.00"
+  name: sensu.example.com
+  expiration: 2015-08-19 15:40:24.405676 -06:00
