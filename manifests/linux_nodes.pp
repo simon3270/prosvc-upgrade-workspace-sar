@@ -254,7 +254,7 @@ node /shopstage/ {
   include example::shopnodes::logrotate
 }
 
-node /intelweb/ {
+node /intelwebstage/ {
   include example::base::config
   include example::microstrategyintel::base
   include example::generic::tomcat
