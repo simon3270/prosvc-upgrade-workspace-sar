@@ -232,7 +232,7 @@ node /dbstage/ {
   include example::dba::users
   include example::oracle::sudoers
 }
-node /erpapp/ {
+node /erpappstage/ {
   include example::base::config
   realize (Accounts::Virtual['shashi.tewari'])
 
