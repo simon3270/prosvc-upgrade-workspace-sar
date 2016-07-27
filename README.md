@@ -1,8 +1,6 @@
-# Puppet Debugging Kit
-_The only good bug is a dead bug._
+# Professional Services Upgrade workspace 
 
-This project provides a batteries-included Vagrant environment for debugging Puppet powered infrastructures.
-
+This project provides a batteries-included Vagrant environment for debugging Puppet powered infrastructures for testing infrastructure
 
 ## Setup
 
@@ -14,7 +12,7 @@ https://www.vagrantup.com
 
 https://www.virtualbox.org/wiki/Downloads
 
-https://my.vmware.com/web/vmware/info?slug=desktop\_end\_user\_computing/vmware\_fusion/8\_0
+https://my.vmware.com/web/vmware/info?slug=desktop_end_user_computing/vmware_fusion/8_0
 
 
 Note: You need the vmware vagrant provider plugin to use vagrant with vmware.
@@ -32,12 +30,14 @@ Two methods are avaible depending on whether a global Vagrant installation, such
 
 ### Running Catalog Preview
 
-```
+```shell
 vagrant up pe-385-master
+```
+```shell
 vagrant ssh pe-385-master 
 ```
 
-```
+```shell
 sudo /opt/puppet/bin/puppet preview \
   --baseline-environment production \
   --preview-environment future_production \
@@ -49,5 +49,7 @@ sudo /opt/puppet/bin/puppet preview \
 ### Generating a HTML report
 
 ```shell
-/etc/puppetlabs/puppet/environments/production/modules/preview_report/preview_report.rb -f /vagrant/catalog_preview_overview-baseline.json -w /vagrant/preview_report.html
+/etc/puppetlabs/puppet/environments/production/modules/preview_report/preview_report.rb \
+-f /vagrant/catalog_preview_overview-baseline.json \
+-w /vagrant/preview_report.html
 ``` 
