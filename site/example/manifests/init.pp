@@ -88,6 +88,12 @@ class example::base::config {
     ensure    => running,
     enable    => true,
   }
+  limits::domain { 'maxlogins':
+    maxlogins => {
+      'soft' => '4',
+      'hard' => '5',
+    },
+  }
   cron { ntpdate:
     ensure     => present,
     command    => "/usr/sbin/ntpdate ntp.example.com > /dev/null 2>&1",
@@ -96,7 +102,7 @@ class example::base::config {
 #    require    => Package[ntpdate],
   }
   file { "/etc/init.d/firstboot":
-    ensure     => absent,
+    ensure     => Absent,
   }
 }
 class example::admin::users {

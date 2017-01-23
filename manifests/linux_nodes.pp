@@ -111,15 +111,15 @@ node /indvoice1/ {
   include example::dba::users
 }
 node 'monprod1.example.com' {
-#  include example::admin::users
-#  include example::postfix::client
-  include example::icinga2::pagerduty  
-#  class { 'icinga2::server':
-#    server_install_nagios_plugins => false,
-#  }
+  include example::admin::users
+  include example::postfix::client
+  class { 'icinga2::server':
+    install_nagios_plugins => false,
+  }
 #  class { 'icinga2::nrpe':
 #    nrpe_allow_hosts => ['10.16.47.210','127.0.0.1'],
 #  }
+  include example::base::config
 }
 
 node 'qualitycenter1.example.com' {
