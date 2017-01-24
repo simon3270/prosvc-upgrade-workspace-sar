@@ -9,11 +9,10 @@ vms:
 
   - name: pe-201640-master
     box: puppetlabs/centos-7.2-64-nocm
-    debug-kit: false
     autostart: false
     roles:
-      - pe-201640-master
       - pe-forward-console
+      - pe-memory-tuning2
       - el-stop-firewall
       - el-fix-path
       - fix_resolv_conf
