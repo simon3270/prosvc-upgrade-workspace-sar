@@ -7,3 +7,7 @@ Gemfile.lock
 bin
 src/puppetlabs
 catalog_preview_overview-baseline.json
+<<<<<<< HEAD
+=======
+preview_report.html
+>>>>>>> 9e57f8cd3ce4268247ec9b34e17f2d2974b828cc

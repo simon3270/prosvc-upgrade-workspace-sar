@@ -1,5 +1,5 @@
 case $operatingsystem {
-  centos, redhat: { $Service_name = 'postfix' }
+  centos, redhat: { $service_name = 'postfix' }
 }
 
 class example::postfix::client {
@@ -8,7 +8,7 @@ class example::postfix::client {
   }
 
   service { 'postfix':
-    name    => $Service_name,
+    name    => $service_name,
     ensure  => running,
     enable  => true,
     subscribe => File['main.cf'],

@@ -33,10 +33,10 @@ bamboobuildprod3.example.com
 bamboobuildprod4.example.com
 bbcdbprod1.apdc.uhs
 biappprod1.example.com
-biappprod2.usana.com
-biappstage1.usana.com
-biappstage2.usana.com
-biapptest1.usana.com
+biappprod2.example.com
+biappstage1.example.com
+biappstage2.example.com
+biapptest1.example.com
 biopladbprod1.example.com
 biopladbstage1.example.com
 biopladbtest1.example.com
@@ -51,12 +51,12 @@ cacheprjb1.example.com
 cacheprjc1.example.com
 cachestage1.example.com
 cachetest1.example.com
-cade-linux1.example.com
+melanthius-linux1.example.com
 ciapp1.example.com
 ciapp2.example.com
 compjiraprod1.example.com
 compjiratest1.example.com
-con-webcache1.usana.com
+con-webcache1.example.com
 coredev1.example.com
 coredev2.example.com
 corelbdev1.example.com
@@ -107,7 +107,7 @@ etldbprod1.example.com
 etldbtest1.example.com
 fmrepodbprod1.example.com
 fmrepodbstage1.example.com
-fmrepodbtest1.usana.com
+fmrepodbtest1.example.com
 grcprod03.example.com
 grcprod04.example.com
 hubot.example.com
@@ -116,7 +116,7 @@ hypdbprod1.example.com
 hypdbstage1.example.com
 hypdbstage2.example.com
 iapps1.pni.vmw1.example.com
-iapps.example.com.usana.com
+iapps.example.com.example.com
 iappstest1.example.com
 indvoice1.pni.b1f3dc.mxmc.uhs
 installinfra1.example.com
@@ -201,9 +201,9 @@ qaautovm00.example.com
 qaautovm01.example.com
 qaautovm02.example.com
 qualitycenter1.example.com
-records-management.usana.com
+records-management.example.com
 repo1.example.com
-rigel.usana.com
+rigel.example.com
 sa1.cato.uhs
 sa1.idjk.uhs
 sbdev01.example.com
@@ -239,7 +239,7 @@ shopstage6.example.com
 shopstage7.example.com
 shopstage8.example.com
 shoptest1.pni.vmw1.example.com
-slc-erpappprod1.usana.com
+slc-erpappprod1.example.com
 soaappdev1.example.com
 soaappprod1.example.com
 soaappstage1.pni.vmw1.example.com
@@ -269,7 +269,7 @@ webcondbprod01.example.com
 webcontentprod1.example.com
 webcontentstage1.example.com
 webdbdev01.pni.b1p3f3dc.example.com
-webdbdev1.example.com.usana.com
+webdbdev1.example.com.example.com
 webdbdev1.example.com
 webdbprod01.pni.b1p3f3dc.example.com
 webdbprod2.example.com
@@ -285,6 +285,6 @@ webemailprod1.example.com
 webemailprod2.example.com
 webemailstage3.example.com
 webemailstage4.example.com
-webemailtest3.example.com.usana.com
+webemailtest3.example.com.example.com
 webemailtest3.example.com
 webemailtest4.example.com

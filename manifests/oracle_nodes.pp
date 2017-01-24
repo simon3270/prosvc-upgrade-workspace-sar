@@ -33,7 +33,6 @@ node 'argodbprod1.ausy.uhs' {
     ensure    => present,
   }
 }
-  
 node 'argodbprod1.cato.uhs' {
   include example::base::config
   include example::dba::users
@@ -234,8 +233,7 @@ node /dbstage/ {
 }
 node /erpappstage/ {
   include example::base::config
-  realize (Accounts::Virtual['shashi.tewari'])
-
+  realize (Accounts::Virtual['Antinous'])
 }
 node 'erpappstage1.example.com' {
   include example::base::config

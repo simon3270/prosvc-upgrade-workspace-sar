@@ -1,5 +1,5 @@
 class accounts::config {
-  
+
   # Place the /etc/skel files in the users home dir.
   file { '/etc/skel/.bash_profile':
     ensure         => present,

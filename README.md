@@ -1,6 +1,6 @@
-# Professional Services Upgrade workspace 
+# Puppet Upgrade Workspace
 
-This project provides a batteries-included Vagrant environment for debugging Puppet powered infrastructures for testing infrastructure
+This project provides a Vagrant environment for demonstrating the process of upgrading Puppet code from Puppet 3 to Puppet 4 compatibility
 
 ## Setup
 
@@ -19,8 +19,11 @@ Note: You need the vmware vagrant provider plugin to use vagrant with vmware.
 
 ### Install Vagrant Plugins
 
-  - `rake setup:global`:
-    This Rake task will add all plugins required by the debugging kit to a global Vagrant installation.
+  - `vagrant plugin install oscar`:
+    This will install the `oscar` Vagrant plugin.
+    https://github.com/oscar-stack/oscar
+
+## Comparing Catalogs
 
 ### Running Catalog Preview
 
@@ -28,7 +31,7 @@ Note: You need the vmware vagrant provider plugin to use vagrant with vmware.
 vagrant up pe-385-master
 ```
 ```shell
-vagrant ssh pe-385-master 
+vagrant ssh pe-385-master
 ```
 
 ```shell
@@ -40,10 +43,11 @@ sudo /opt/puppet/bin/puppet preview \
   --view overview-json | tee /vagrant/catalog_preview_overview-baseline.json
 ```
 
-### Generating a HTML report
+### Generating an HTML report
 
 ```shell
 /etc/puppetlabs/puppet/environments/production/modules/preview_report/preview_report.rb \
 -f /vagrant/catalog_preview_overview-baseline.json \
 -w /vagrant/preview_report.html
-``` 
+```
+
