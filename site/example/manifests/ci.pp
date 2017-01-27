@@ -5,7 +5,7 @@ class example::ci::base {
 
 #class example::ci::users {
 #  include accounts
-#  realize (Accounts::Virtual['stevet27'])
-#  realize (Accounts::Virtual['michaelp23'])
-#  realize (Accounts::Virtual['gregs25'])
+#  realize (Accounts::Virtual['jaime'])
+#  realize (Accounts::Virtual['tyrion'])
+#  realize (Accounts::Virtual['arete'])
 #}

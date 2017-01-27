@@ -34,7 +34,7 @@ define accounts::virtual ($uid,$gid,$realname,$pass,$sshkeytype,$sshkey,$groups)
 #      gid           => $uid,
 #    }
   }
-  
+
   # Ensure the home directory exists with the right permissions
   file { "${homepath}/${title}":
     ensure          => directory,
