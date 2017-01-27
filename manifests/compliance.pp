@@ -1,4 +1,4 @@
-# Compliance/Inscope Nodes
+# Compliance nodes
 
 node /odysseyprod/ {
   include example::base::config
@@ -83,12 +83,12 @@ node /shopprod/ {
   include example::compliance
   include example::base::snmp
   file { 'sudoers':
-    path     => '/etc/sudoers.d/11-security',
-    ensure   => file,
-    owner    => root,
-    group    => root,
-    mode     => 0440,
-    source    => "puppet:///modules/example/security-sudoers",
-	}
+    path   => '/etc/sudoers.d/11-security',
+    ensure => file,
+    owner  => root,
+    group  => root,
+    mode   => 0440,
+    source => "puppet:///modules/example/security-sudoers",
+  }
 
 }

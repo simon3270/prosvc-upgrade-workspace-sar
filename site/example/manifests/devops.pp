@@ -1,14 +1,14 @@
 # DEVOPS classes
 class example::devops::base {
-  include accounts 
+  include accounts
   if $hostname =~ /webemaildev/ or $hostname =~ /webemailtest/ or $hostname =~ /webemailstage/ {
     include example::devops::users
   } else {
-    user { gregs25:
+    user { arete:
       ensure     => absent,
     }
   }
-  
+
 #  file { "/etc/sudoers.d/devops":
 #    mode    => 440,
 #    owner   => root,
@@ -19,9 +19,9 @@ class example::devops::base {
 
 class example::devops::users {
   include accounts
-  realize (Accounts::Virtual['stevet27'])
-  realize (Accounts::Virtual['michaelp23'])
-  realize (Accounts::Virtual['gregs25'])
+  realize (Accounts::Virtual['jaime'])
+  realize (Accounts::Virtual['tyrion'])
+  realize (Accounts::Virtual['arete'])
   group { "devops":
     gid    => 50001,
     ensure => "present",

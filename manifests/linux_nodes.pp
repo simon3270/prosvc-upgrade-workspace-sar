@@ -40,7 +40,7 @@ node /monitor1/ {
 }
 node /avprod/ {
   include example::base::config
-  package { 'clamd': 
+  package { 'clamd':
     ensure     => latest,
   }
   package { 'clamav':
@@ -56,43 +56,43 @@ node /biappprod/ {
 }
 node /webappprod/ {
   include example::base::config
-  user { "alexm28":
+  user { "odysseus":
     ensure     => absent,
     managehome => true,
   }
-  user { "tysons08":
+  user { "Telemachus":
     ensure     => absent,
     managehome => true,
   }
-  user { "rob":
+  user { "Penelope":
     ensure     => absent,
     managehome => true,
   }
-  user { "mikeg02":
+  user { "Athena":
     ensure     => absent,
     managehome => true,
   }
-  user { "daves14":
+  user { "Poseidon":
     ensure     => absent,
     managehome => true,
   }
-  user { "phillipc30":
+  user { "Zeus":
     ensure     => absent,
     managehome => true,
   }
-  user { "shashi.tewari":
+  user { "Antinous":
     ensure     => absent,
     managehome => true,
   }
-  user { "venkat":
+  user { "Eurymachus":
     ensure     => absent,
     managehome => true,
   }
-  user { "michael.arbon":
+  user { "Amphinomus":
     ensure     => absent,
     managehome => true,
   }
-  user { "csteab":
+  user { "Eumaeus":
     ensure     => absent,
     managehome => true,
   }
@@ -111,15 +111,15 @@ node /indvoice1/ {
   include example::dba::users
 }
 node 'monprod1.example.com' {
-#  include example::admin::users
-#  include example::postfix::client
-  include example::icinga2::pagerduty  
-#  class { 'icinga2::server':
-#    server_install_nagios_plugins => false,
-#  }
+  include example::admin::users
+  include example::postfix::client
+  class { 'icinga2::server':
+    install_nagios_plugins => false,
+  }
 #  class { 'icinga2::nrpe':
 #    nrpe_allow_hosts => ['10.16.47.210','127.0.0.1'],
 #  }
+  include example::base::config
 }
 
 node 'qualitycenter1.example.com' {
@@ -132,14 +132,6 @@ node 'qualitycenter1.example.com' {
 }
 node /shiplineprod/ {
   include example::base::config
-  
-#  file { '/etc/sudoers.d/50-qcsoftware':
-#    ensure   => file,
-#    owner    => root,
-#    group    => root,
-#    mode     => 644,
-#    source   => "puppet:///modules/example/qcsoftware-sudoers",
-#  }
 }
 node 'management1.example.com' {
   include example::base::config
@@ -156,7 +148,7 @@ node /webemailprod/ {
   include example::splunk::forwarder
   include example::app::responsys
 
-  realize (Accounts::Virtual['chris'])
+  realize (Accounts::Virtual['Eurycleia'])
   group { "dev":
     gid     => 60000,
     ensure  => "present",
@@ -216,11 +208,11 @@ node /webemaildev[12].example.com/ {
     ensure  => present,
     content => '%tomcat ALL=(tomcat) NOPASSWD: ALL\n%tomcat ALL = NOPASSWD: /bin/su - tomcat\n',
   }
-  realize (Accounts::Virtual['chris'])
-  realize (Accounts::Virtual['jaredb07'])
-  realize (Accounts::Virtual['john13'])
-  realize (Accounts::Virtual['nickh20'])
-  realize (Accounts::Virtual['jasonb22'])
+  realize (Accounts::Virtual['Eurycleia'])
+  realize (Accounts::Virtual['agamemnon'])
+  realize (Accounts::Virtual['nausicaa'])
+  realize (Accounts::Virtual['alcinous'])
+  realize (Accounts::Virtual['helen'])
 }
 
 node /webemailstage/ {
@@ -235,8 +227,8 @@ node /webemailstage/ {
     gid   => 60000,
     ensure => present,
   }
-  realize (Accounts::Virtual['chris'])
-  realize (Accounts::Virtual['jaredb07'])
+  realize (Accounts::Virtual['Eurycleia'])
+  realize (Accounts::Virtual['agamemnon'])
 }
 
 node /webcontentstage/ {
@@ -285,10 +277,10 @@ node /webemailtest/ {
   include example::dev::users
   include example::app::responsys
 
-  realize (Accounts::Virtual['chris'])
-  realize (Accounts::Virtual['jaredb07'])
-  realize (Accounts::Virtual['john13'])
-  realize (Accounts::Virtual['nickh20'])
+  realize (Accounts::Virtual['Eurycleia'])
+  realize (Accounts::Virtual['agamemnon'])
+  realize (Accounts::Virtual['nausicaa'])
+  realize (Accounts::Virtual['alcinous'])
 
 }
 node /webapp/ {
