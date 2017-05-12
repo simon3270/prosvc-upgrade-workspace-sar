@@ -186,7 +186,6 @@ If a service address does not exist then use whatever means make the most sense 
 We have a number of different ways to use the puppet_agent module to upgrade agents. There are modules written that can do most of what we need for us, or there are a set of manual or semi-manual steps we can take. Multiple approaches are discussed below, feel free to use whatever combination is appropriate for your situation.
 
 #### Using an all-in-one migration solution
-Note that the module below assume migration to a fresh server and that the agent will need new certificates generated for this. Carefully consider whether this is needed or whether the migration steps linked above will work instead. Regenerating agent certificates might have unexpected impacts if trusted facts are used and are not created as part of these new certificate requests.
 
 [This module](https://github.com/dnase/puppet_agent_migrate) can be used to perform all migration steps or as a point of reference for agent migration. To use it, follow the steps below.
 
