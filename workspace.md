@@ -39,13 +39,15 @@
 
 ### Overview
 
+You can find a more thorough documentation on the code update process in the [Puppet upgrade docs](https://docs.puppet.com/upgrade/upgrade_code_workflow.html)
+
 Production Puppet code lives in `/etc/puppetlabs/puppet/environments/production`.  Basically a copy of that code lives in `/etc/puppetlabs/puppet/environments/future_production`.  The difference is in future_production's `environment.conf`, the parser is set to `future` instead of `current`.
 
-We'll use the `catalog_preview` tool in order to compile catalogs in both environments, and then compare them.
+We'll use the `catalog_preview` tool in order to compile catalogs in both environments, and then compare them. 
 
 ### Catalog Preview
 
-1. To generate a report of the differences between catalogs:
+1. To generate a report of the differences between catalogs using the [catalog_preview module](https://forge.puppet.com/puppetlabs/catalog_preview) which is automatically included in this vagrant environment:
 
     ```
     /opt/puppet/bin/puppet preview \
@@ -56,7 +58,7 @@ We'll use the `catalog_preview` tool in order to compile catalogs in both enviro
     --view overview-json > /vagrant/catalog_preview_overview-baseline.json
     ```
 
-1.  Generate HTML report for ease of reading:
+1.  Generate HTML report for ease of reading using the [preview-report module](https://github.com/puppetlabs/prosvc-preview_report) module which is also automatically included:
 
     ```
     /etc/puppetlabs/puppet/environments/production/modules/preview_report/preview_report.rb \
@@ -175,10 +177,16 @@ All current agents have certificates signed by the CA root certificate on the 3.
 ## Agent Migration
 
 ### Overview
+When doing this at a customer site the preference is to migrate all of their master configuration and ssl data over to a new Puppet 4.x based infrastructure as detailed in the [Puppet upgrade docs](https://docs.puppet.com/pe/latest/migrate_monolithic.html) as this allows the certificates between master and agent to continue working. 
+
+Once this is done migrating to the new infrastructure should be as easy as repointing the Puppet service address(if the customer has one) to the new server. The Puppet 3.x agents will be able to run against the puppet 4.x master without issue and can then be upgraded using the [puppet_agent module](https://forge.puppet.com/puppetlabs/puppet_agent).
+
+If a service address does not exist then use whatever means make the most sense to update the server setting in puppet.conf to point to the new address.
 
 We have a number of different ways to use the puppet_agent module to upgrade agents. There are modules written that can do most of what we need for us, or there are a set of manual or semi-manual steps we can take. Multiple approaches are discussed below, feel free to use whatever combination is appropriate for your situation.
 
 #### Using an all-in-one migration solution
+Note that the module below assume migration to a fresh server and that the agent will need new certificates generated for this. Carefully consider whether this is needed or whether the migration steps linked above will work instead. Regenerating agent certificates might have unexpected impacts if trusted facts are used and are not created as part of these new certificate requests.
 
 [This module](https://github.com/dnase/puppet_agent_migrate) can be used to perform all migration steps or as a point of reference for agent migration. To use it, follow the steps below.
 
