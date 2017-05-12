@@ -1,6 +1,6 @@
 # Puppet Upgrade Workspace
 
-This project provides a Vagrant environment for demonstrating the process of upgrading Puppet code from Puppet 3 to Puppet 4 compatibility
+This project provides a Vagrant environment for demonstrating the process of upgrading Puppet code from Puppet 3 to Puppet 4 compatibility. Official Puppet docs around the upgrade process are here: https://docs.puppet.com/upgrade/upgrade_steps.html
 
 ## Setup
 
@@ -25,7 +25,7 @@ Note: You need the vmware vagrant provider plugin to use vagrant with vmware.
 
 ## Comparing Catalogs
 
-### Running Catalog Preview
+### Running [Catalog Preview](https://forge.puppet.com/puppetlabs/catalog_preview) 
 
 ```shell
 vagrant up pe-385-master
