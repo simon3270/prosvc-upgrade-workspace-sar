@@ -177,7 +177,7 @@ All current agents have certificates signed by the CA root certificate on the 3.
 ## Agent Migration
 
 ### Overview
-When doing this at a customer site the preference is to migrate all of their master configuration and ssl data over to a new Puppet 4.x based infrastructure as detailed in the [Puppet upgrade docs](https://docs.puppet.com/pe/latest/migrate_monolithic.html) as this allows the certificates between master and agent to continue working. 
+When doing this at a customer site the preference is to migrate all of their master configuration and ssl data over to a new Puppet 4.x based infrastructure as detailed in the [Puppet upgrade docs](https://docs.puppet.com/pe/latest/migrate_monolithic.html) as this allows the certificates between master and agent to continue working. There is also a [detailed agent migration doc](https://github.com/puppetlabs/cs-solutions/blob/master/upgrades/2-3x-agent-migration.md) written up by the services team
 
 Once this is done migrating to the new infrastructure should be as easy as repointing the Puppet service address(if the customer has one) to the new server. The Puppet 3.x agents will be able to run against the puppet 4.x master without issue and can then be upgraded using the [puppet_agent module](https://forge.puppet.com/puppetlabs/puppet_agent).
 
