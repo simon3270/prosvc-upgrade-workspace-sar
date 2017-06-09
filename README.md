@@ -28,10 +28,10 @@ Note: You need the vmware vagrant provider plugin to use vagrant with vmware.
 ### Running Catalog Preview
 
 ```shell
-vagrant up pe-385-master
+vagrant up pe-386-master
 ```
 ```shell
-vagrant ssh pe-385-master
+vagrant ssh pe-386-master
 ```
 
 ```shell
