@@ -85,7 +85,7 @@ class example::generic::tomcat::base {
     require => File["$basedir/tomcat"],
     owner   => root,
     group   => root,
-    mode    => 0755,
+    mode    => '0755',
     source  => "puppet:///modules/example/tomcat-init",
   }
   
@@ -100,7 +100,7 @@ class example::generic::tomcat::base {
 #    require => File["tomcat"],
 #    owner   => tomcat,
 #    group   => tomcat,
-#    mode    => 0644,
+#    mode    => '0644',
 #    source  => "puppet:///modules/example/manager.xml-generic",
 #    notify  => Service["tomcat"],
 #  }
@@ -110,7 +110,7 @@ class example::generic::tomcat::base {
     require => File["tomcat"],
     owner   => tomcat,
     group   => tomcat,
-    mode    => 0644,
+    mode    => '0644',
     source  => "puppet:///modules/example/tomcat-users.xml-generic",
     notify  => Service["tomcat"],
   }

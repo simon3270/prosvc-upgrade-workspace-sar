@@ -87,7 +87,7 @@ class example::webemail::config {
     require => File["$basedir/tomcat"],
     owner   => tomcat,
     group   => tomcat,
-    mode    => 0700,
+    mode    => '0700',
     source  => "puppet:///modules/example/jmxremote.access",
   }
   
@@ -95,7 +95,7 @@ class example::webemail::config {
     require => File["$basedir/tomcat"],
     owner   => tomcat,
     group   => tomcat,
-    mode    => 0700,
+    mode    => '0700',
     source  => "puppet:///modules/example/jmxremote.password",
   }
   
@@ -104,7 +104,7 @@ class example::webemail::config {
     require => File["$basedir/tomcat"],
     owner   => root,
     group   => root,
-    mode    => 0755,
+    mode    => '0755',
     source  => "puppet:///modules/example/tomcat-init",
   }
   if $hostname =~ /webemailprod1/ {

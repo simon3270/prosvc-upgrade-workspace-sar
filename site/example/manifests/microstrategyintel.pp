@@ -110,7 +110,7 @@ class example::microstrategyintel::base {
       ensure   => directory,
       owner    => "mstr",
       group    => "mstr",
-      mode     => 0775,
+      mode     => '0775',
     }
 }
 class example::microstrategyintel::users {
@@ -124,7 +124,7 @@ class example::microstrategyintel::users {
     ensure     => file,
     owner      => root,
     group      => root,
-    mode       => 0664,
+    mode       => '0664',
     content    => "mstr\tALL=(ALL)\tNOPASSWD: ALL\n",
   }
 }
@@ -134,7 +134,7 @@ class example::microstrategyintel::nfs {
     ensure   => directory,
     owner    => mstr,
     group    => mstr,
-    mode     => 0775,
+    mode     => '0775',
    }
    mount { "/bistage":
     device   => "nfsprod1.example.com:/nfs/bistage",

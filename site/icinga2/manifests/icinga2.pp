@@ -4,7 +4,7 @@
 # http://monitoring-portal.org/wbb/index.php?page=Thread&postID=204321
 # https://lists.icinga.org/pipermail/icinga-users/2014-May/008201.html
 class icinga2::pagerduty (
-  $pagerduty_service_apikey = 6c77fde0b592465ca442a17144ba8191,
+  $pagerduty_service_apikey = '6c77fde0b592465ca442a17144ba8191',
 ) {
 
   include stdlib

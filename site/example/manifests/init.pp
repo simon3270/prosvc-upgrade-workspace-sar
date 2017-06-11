@@ -7,23 +7,23 @@ class example::base::users {
   user { root:
     password => '$1$v4K9E8Wj$gZIHJ5JtQL5ZGZXeqSSsd0',
   }
-  if $::user_exists_oracle {
+  if ! $::user_exists_oracle == '' {
     user { oracle:
       managehome => true,
       password   => '$1$v4K9E8Wj$gZIHJ5JtQL5ZGZXeqSSsd0',
     }
   }
-  if $::user_exists_weblogic {
+  if ! $::user_exists_weblogic == '' {
     user { weblogic:
       password => '$1$v4K9E8Wj$gZIHJ5JtQL5ZGZXeqSSsd0',
     }
   }
-  if $::user_exists_splex {
+  if ! $::user_exists_splex == '' {
     user { splex:
       password => '$1$v4K9E8Wj$gZIHJ5JtQL5ZGZXeqSSsd0',
     }
   }
-  if $::user_exists_infraadm {
+  if ! $::user_exists_infraadm == '' {
     user { infraadm:
       password => '$1$v4K9E8Wj$gZIHJ5JtQL5ZGZXeqSSsd0',
     }
@@ -141,14 +141,14 @@ class example::erp::users {
     ensure  => "present",
   }
   file { "/etc/sudoers.d/erp-sudoers":
-    mode    => 440,
+    mode    => '440',
     owner   => root,
     group   => root,
     source  => "puppet:///modules/example/erp-sudoers"
   }
   if $hostname =~ /obie/ {
     file { "/etc/sudoers.d/60-erp":
-      mode    => 440,
+      mode    => '440',
       owner   => root,
       group   => root,
       source  => "puppet:///modules/sudo/60-erp"

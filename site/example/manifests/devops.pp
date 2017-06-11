@@ -10,7 +10,7 @@ class example::devops::base {
   }
 
 #  file { "/etc/sudoers.d/devops":
-#    mode    => 440,
+#    mode    => '440',
 #    owner   => root,
 #    group   => root,
 #    source  => "puppet:///modules/example/devops-sudoers"
@@ -27,7 +27,7 @@ class example::devops::users {
     ensure => "present",
   }
   file { "/etc/sudoers.d/devops":
-    mode    => 440,
+    mode    => '440',
     owner   => root,
     group   => root,
     source  => "puppet:///modules/example/devops-sudoers"
@@ -39,6 +39,6 @@ class example::devops::deploy::sudo {
     content => "Defaults:deploy !requiretty\ndeploy ALL=(ALL) NOPASSWD: ALL\n",
     owner   => 'root',
     group   => 'root',
-    mode    => 0644,
+    mode    => '0644',
   }
 }

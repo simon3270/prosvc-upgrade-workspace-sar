@@ -4,20 +4,20 @@ class example::app::responsys {
     ensure     => directory,
     owner      => tomcat,
     group      => tomcat,
-    mode       => 0775,
+    mode       => '0775',
   }
   file { "/var/responsys/uploads":
     ensure     => directory,
     owner      => tomcat,
     group      => tomcat,
-    mode       => 0775,
+    mode       => '0775',
     require    => File["/var/responsys"],
   }
   file { "/var/responsys/downloads":
     ensure     => directory,
     owner      => tomcat,
     group      => tomcat,
-    mode       => 0775,
+    mode       => '0775',
     require    => File["/var/responsys"],
   }
   if $hostname =~ /stage/ {

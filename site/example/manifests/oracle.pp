@@ -202,14 +202,14 @@ class example::oracle::common {
     ensure    => directory,
     owner     => oracle,
     group     => dba,
-    mode      => 775,
+    mode      => '775',
   }
   file { 'u00/oracle':
     path      => '/u00/oracle',
     ensure    => directory,
     owner     => oracle,
     group     => dba,
-    mode      => 775,
+    mode      => '775',
   }
   if $hostname =~ /odsysrvsdb/ {
     file { 'limits.conf':
@@ -241,7 +241,7 @@ class example::oracle::common {
   file { 'vncservers':
     path      => '/etc/sysconfig/vncservers',
     ensure    => file,
-    mode      => 0644,
+    mode      => '0644',
     owner     => root,
     group     => root,
     source    => "puppet:///modules/example/oracle-vncserver-displays",
@@ -258,7 +258,7 @@ class example::oracle::common {
 #    ensure    => file,
 #    owner     => oracle,
 #    group     => dba, source    => "puppet:///modules/example/oracle-xstartup",
-#    mode      => 0755,
+#    mode      => '0755',
 #    require   => File[".vnc"]
 #  }
 #  file { 'passwd':
@@ -267,7 +267,7 @@ class example::oracle::common {
 #    owner     => oracle,
 #    group     => dba,
 #    source    => "puppet:///modules/example/oracle-vncpasswd",
-#    mode      => 0600,
+#    mode      => '0600',
 #    require   => File[".vnc"]
 #  }
 # file { 'inittab':
@@ -276,7 +276,7 @@ class example::oracle::common {
 #    owner     => root,
 #    group     => root,
 #    source    => "puppet:///modules/example/oracle-inittab",
-#    mode      => 0644,
+#    mode      => '0644',
 # }
 #  file { 'xvfbebs':
 #    path      => '/etc/init.d/xvfbebs',
@@ -284,7 +284,7 @@ class example::oracle::common {
 #    owner     => root,
 #    group     => root,
 #    source    => "puppet:///modules/example/oracle-xvfbebs",
-#    mode      => 0755,
+#    mode      => '0755',
 #  }
 }
 class example::oracle::nfs::stage {
@@ -293,7 +293,7 @@ class example::oracle::nfs::stage {
     ensure   => directory,
     owner    => oracle,
     group    => dba,
-    mode     => 0775,
+    mode     => '0775',
   }
   mount { "/stage":
     #device   => "10.16.60.77:/ifs/space/oracle",
@@ -311,7 +311,7 @@ class example::oracle::nfs::exp {
     ensure    => directory,
     owner     => oracle,
     group     => dba,
-    mode      => 0775,
+    mode      => '0775',
   }
   mount { "/exp":
     device   => "isilon01.example.com:/ifs/aaexpvol",
@@ -329,7 +329,7 @@ class example::oracle::nfs::arch {
     ensure   => directory,
     owner    => oracle,
     group    => dba,
-    mode     => 0775,
+    mode     => '0775',
   }
   mount { "/arch":
     device   => "isilon01.example.com:/ifs/arch",
@@ -346,7 +346,7 @@ class example::oracle::u01 {
     ensure   => directory,
     owner    => oracle,
     group    => dba,
-    mode     => 0775,
+    mode     => '0775',
 #    recurse  => true,
   }
 }
@@ -356,7 +356,7 @@ class example::oracle::sudoers {
     ensure   => file,
     owner    => root,
     group    => root,
-    mode     => 0440,
+    mode     => '0440',
     source    => "puppet:///modules/example/oracle-sudoers",
   }
 }
@@ -373,7 +373,7 @@ class example::oracle::app::sudoers {
     ensure   => file,
     owner    => root,
     group    => root,
-    mode     => 0440,
+    mode     => '0440',
     source   => "puppet:///modules/example/oracleapp-sudoers",
   }
 }

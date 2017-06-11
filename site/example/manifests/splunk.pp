@@ -25,7 +25,7 @@ class example::splunk::forwarder {
 #    ensure => "directory",
 #    owner  => "root",
 #    group  => "root",
-#    mode   => 700,
+#    mode   => '700',
 #    require => Package["splunkforwarder"],
 # }
 }

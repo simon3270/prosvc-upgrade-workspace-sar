@@ -9,7 +9,7 @@ class example::base::snmp {
   }
   file { "/etc/snmp/snmpd.conf":
     notify  => Service["snmpd"],
-    mode    => 644,
+    mode    => '644',
     owner   => root,
     group   => root,
     require => Package["net-snmp"],

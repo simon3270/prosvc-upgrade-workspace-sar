@@ -9,7 +9,7 @@ class example::shopnodes::logrotate {
   file { "/etc/logrotate.d/shop-tomcat":
     owner    => root,
     group    => root,
-    mode     => 0644,
+    mode     => '0644',
     content  => template('example/shop-tomcat-logrotate'),
   }
   if $environment == production {
