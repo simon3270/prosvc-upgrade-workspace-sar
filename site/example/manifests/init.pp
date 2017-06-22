@@ -92,7 +92,7 @@ class example::base::config {
 #    require    => Package[ntpdate],
   }
   file { "/etc/init.d/firstboot":
-    ensure     => Absent,
+    ensure     => absent,
   }
 }
 class example::admin::users {
